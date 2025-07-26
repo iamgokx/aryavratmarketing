@@ -1,0 +1,59 @@
+nav {
+  background-color: rgb(45, 45, 45);
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem 0rem;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  height: 100px;
+}
+
+.navLogoContainer {
+  width: 20%;
+}
+
+.navLogoContainer img {
+  width: 200px;
+}
+
+.navLinksContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.link,
+a {
+  font-family: var(--heading-font);
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.portfolioDownloadbutton {
+  font-size: 1.3rem;
+}
+
+.contactUsButton {
+  background-color: var(--primary-color);
+  border-radius: 40px;
+  padding: 1rem 2rem;
+  margin-left: 4rem;
+}
+
+.scrolled {
+  background-color: rgba(0, 0, 0, 0.583);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}

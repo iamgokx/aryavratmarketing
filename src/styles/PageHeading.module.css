@@ -1,0 +1,40 @@
+
+.pageHeadingContainer {
+  height: 50vh;
+  padding: 2rem;
+  padding-top: 120px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  gap: 1rem;
+}
+.pageHeadingContainer h2 {
+  color: white;
+  font-family: var(--heading-font);
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.pageHeadingContainer p {
+  width: 100%;
+  text-align: end;
+  font-family: var(--subheading-font) !important;
+
+  color: white;
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+
+
+.pageHeadingContainer::after{
+  content: "";
+  position: absolute;
+  width: 60%;
+  background-color: white;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+}

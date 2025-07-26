@@ -1,0 +1,57 @@
+:root {
+  --primary-color: rgb(173, 42, 48);
+  --secondary-color: rgb(33, 33, 33);
+  --heading-font: "Inter", sans-serif;
+  --subheading-font: "Poppins", sans-serif;
+  --body-font: "Nunito", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 14px;
+  overflow-x: hidden;
+ background-color: black;
+  height: 60vh;
+}
+
+body {
+  height: 50vh;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #a03030;
+}
+
+.bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  object-fit: contain;
+  opacity: 0.5;
+  z-index: -2;
+}

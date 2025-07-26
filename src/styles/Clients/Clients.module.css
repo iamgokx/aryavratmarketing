@@ -1,0 +1,99 @@
+.clientsSection {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.brandsThatTrustUsContainer {
+  width: 100%;
+  background-color: rgb(46, 46, 46);
+  padding: 4rem;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 2rem;
+}
+
+.brandsThatTrustUsContainer h2 {
+  color: white;
+  font-size: 3rem;
+  font-family: var(--heading-font);
+}
+
+.brandsThatTrustUsContainer h2 span {
+  color: var(--primary-color);
+}
+
+.brandsThatTrustUsContainer p {
+  color: white;
+  font-family: var(--body-font);
+  width: 80%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.clientsContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.clientsContainer img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  object-position: center;
+  transition: 0.5s;
+
+}
+.clientsContainer img:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+
+.testimonialsContainer{
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 2rem;
+}
+
+.testimonialsContainer h2 {
+  color: white;
+  font-size: 3rem;
+  font-family: var(--heading-font);
+}
+
+.testimonialsContainer h2 span {
+  color: var(--primary-color);
+}
+
+.testimonialsContainer p {
+  color: white;
+  font-family: var(--body-font);
+  width: 80%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.testimonials{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 4rem 0rem;
+}
+
+.manyMoreHeading{
+  color: white;
+  font-family: var(--body-font);
+  font-size: 1.2rem;
+}

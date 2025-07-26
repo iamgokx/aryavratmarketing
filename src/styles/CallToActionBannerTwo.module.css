@@ -1,0 +1,136 @@
+.bannerContainer {
+  height: 600px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgContainer {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.bgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+.blurContainer {
+  width: 80%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.259);
+  z-index: 4;
+  position: relative;
+  backdrop-filter: blur(7px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bannerTopContainer {
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+}
+
+.bannerTopContainer h2 {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+}
+
+.bannerTopContainer h2 span {
+  color: var(--primary-color);
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.btnContainer a,
+.link {
+  color: black;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: var(--body-font);
+  font-weight: 600;
+  transition: 0.5s;
+  font-size: 1.2rem;
+  border: 2px solid white;
+}
+
+.btnContainer a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.btnContainer a:nth-child(2) {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.btnContainer a:nth-child(2):hover {
+  background-color: white;
+  color: black;
+}
+
+.linksContainerMain {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+
+  width: 100%;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.linksContainer .icon {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 4rem;
+}
+
+.linkContent {
+  display: flex;
+
+  flex-direction: column;
+  font-family: var(--body-font);
+  gap: 5px;
+}
+
+.linkContent a {
+  text-decoration: none;
+  color: white;
+}

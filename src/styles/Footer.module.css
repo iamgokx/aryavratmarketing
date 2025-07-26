@@ -1,0 +1,100 @@
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 3rem 1rem;
+}
+
+.footerTopContainer {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  color: white;
+  font-family: var(--body-font);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.733);
+  padding-bottom: 4rem;
+}
+
+.logoContainer img {
+  width: 60%;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.linksContainer {
+  display: flex;
+  gap: 2rem;
+  margin-top: auto;
+}
+.icon {
+  color: white;
+  font-size: 2rem;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  color: var(--primary-color);
+  transition: 0.5s;
+}
+
+.LinksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.LinksContainer h5 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.link ,p{
+  font-family: var(--body-font);
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+
+
+.link:hover {
+  transition: 0.5s;
+  color: var(--primary-color);
+}
+
+.LinksContainer a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.5s;
+}
+
+.LinksContainer a:hover {
+  color: var(--primary-color);
+}
+
+.footerBottomContainer {
+  display: flex;
+  justify-content: space-between;
+
+  width: 90%;
+  padding-top: 4rem;
+  color: white;
+  font-family: var(--body-font);
+}
+
+.footerBottomContainer div {
+  display: flex;
+  gap: 2rem;
+}

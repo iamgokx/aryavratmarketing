@@ -1,0 +1,69 @@
+.TestimonialCard {
+  background-color: white;
+  color: black;
+  height: 300px;
+  border-radius: 20px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 600px;
+  gap: 10px;
+}
+
+.quotesIcon {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-left: auto;
+}
+
+.TestimonialContent {
+  color: black;
+  font-family: var(--body-font);
+  font-size: 1.2rem;
+}
+
+.TestimonialFooter {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+ 
+  width: 100%;
+
+}
+
+.TestimonialFooter img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  object-fit: cover;
+  object-position: center;
+}
+
+.TestimonialUser {
+  color: black;
+  width: 100%;
+  font-family: var(--body-font);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 1.1rem;
+  height: 100%;
+
+}
+
+.TestimonialUser p {
+
+  color: var(--primary-color)!important;
+  margin: 0 !important;
+  text-align: left !important;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+}
+
+.TestimonialUser header{
+  font-weight: 600;
+}
