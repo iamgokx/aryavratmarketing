@@ -1,9 +1,10 @@
 .card {
-  border-radius: 12px;
+  border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   background-color: white;
-  max-width: 340px;
+  color: black;
+
   margin: 20px;
 }
 
@@ -14,33 +15,52 @@
 
 .image {
   width: 100%;
-  height: auto;
+  aspect-ratio: 19/10;
+  object-fit: cover;
   display: block;
 }
 
-.roadName {
+.location {
   position: absolute;
   bottom: 8px;
   left: 12px;
   color: white;
-  font-weight: bold;
+  font-weight: 400;
   background: rgba(0, 0, 0, 0.6);
-  padding: 4px 8px;
+  padding: 1rem;
   border-radius: 6px;
   font-size: 14px;
+  font-family: var(--body-font) !important;
 }
 
 .details {
-  padding: 16px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  
 }
 
-.location {
+.size{
+  color: var(--primary-color) !important;
+}
+
+.details p {
   color: #555;
-  font-size: 14px;
+  font-size: 1.2rem;
   margin: 6px 0;
   display: flex;
   align-items: center;
+  color: black;
+  font-family: var(--body-font) ;
 }
+
+.client{
+  font-family: var(--heading-font) !important;
+  font-weight: 600;
+  font-size: 1.5rem !important;
+  
+}
+
 
 .viewBtn {
   background-color: #f8dede;

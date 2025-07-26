@@ -3,8 +3,10 @@ import styles from "../styles/Clients/Clients.module.css";
 import PageHeading from "../Components/PageHeading";
 import logos from "../../siteData/clientsLogos.json";
 import testimonials from "../../siteData/testimonials.json";
+import campaigns from "../../siteData/campaigns.json";
 import TestimonialCard from "../Components/TestimonialCard";
 import CallToActionBannerTwo from "../Components/CallToActionBannerTwo.jsx";
+import Campaign from "../Components/Clients/Campaign.jsx";
 function Clients() {
   return (
     <>
@@ -36,7 +38,23 @@ function Clients() {
             ))}
           </div>
           <header className={styles.manyMoreHeading}>And many more...</header>
+        </div>
 
+        <div className={styles.campaignsContainer}>
+          <h2>Discover our <span>successful advertising</span> campaigns</h2>
+
+          <div className={styles.cardsContainer}>
+            {campaigns.map((c, index) => (
+              <Campaign
+                client={c.client}
+                descripton={c.description}
+                imgSrc={c.img}
+                location={c.location}
+                size={c.size}
+
+                key={`${index}${c.position}`}></Campaign>
+            ))}
+          </div>
         </div>
 
         <div className={styles.testimonialsContainer}>

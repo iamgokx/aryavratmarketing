@@ -3,11 +3,7 @@ import styles from "../styles/Home/HomePage.module.css";
 import HomeLandingScreen from "../Components/Home/HomeLandingScreen";
 import { FaLessThanEqual } from "react-icons/fa6";
 import Slider from "react-slick";
-import s1 from "/assets/CampaignImages/c1.png";
-import s2 from "/assets/CampaignImages/c2.png";
-import s3 from "/assets/CampaignImages/c3.png";
-import s4 from "/assets/CampaignImages/c4.png";
-import s5 from "/assets/CampaignImages/c5.png";
+import campaignsImgs from '../../siteData/campaigns.json'
 
 import stat1 from "/assets/homepage/stat1.svg";
 import stat2 from "/assets/homepage/stat2.svg";
@@ -25,7 +21,7 @@ import TestimonialCard from "../Components/TestimonialCard";
 import testimonials from "../../siteData/testimonials.json";
 import CallToActionBannerTwo from "../Components/CallToActionBannerTwo";
 function Homepage() {
-  const slideImgs = [s1, s2, s3, s4, s5];
+ 
   const settings = {
     dots: false,
     arrows: false,
@@ -140,9 +136,9 @@ function Homepage() {
       <section className={styles.homeSection}>
         <div className={styles.homeAboutUsContainer}>
           <Slider {...settings} className={styles.slider}>
-            {slideImgs.map((src, index) => (
-              <div key={`${index} ${src}`}>
-                <img src={src} alt={`Slide ${index}`} />
+            {campaignsImgs.map((campaign, index) => (
+              <div key={`${index} ${campaign.client}`}>
+                <img src={campaign.img} alt={`Slide ${index}`} />
               </div>
             ))}
           </Slider>
@@ -221,9 +217,9 @@ function Homepage() {
             </div>
 
             <Slider {...settings} className={styles.slider}>
-              {slideImgs.map((src, index) => (
+              {campaignsImgs.map((campaign, index) => (
                 <div key={index}>
-                  <img src={src} alt={`Slide ${index}`} />
+                  <img src={campaign.img} alt={`Slide ${index}`} />
                 </div>
               ))}
             </Slider>
