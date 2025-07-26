@@ -3,7 +3,7 @@ import styles from "../styles/CallToActionBannerTwo.module.css";
 import { IoMdCall } from "react-icons/io";
 import { CiMail } from "react-icons/ci";
 import { TiLocation } from "react-icons/ti";
-import bgImg from "/public/assets/videos/banner.gif";
+import bgImg from "/assets/videos/banner.gif";
 import { Link } from "react-router-dom";
 function CallToActionBannerTwo() {
   return (

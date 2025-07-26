@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Whatsapp.module.css";
-import whatsappicon from "/public/assets/whatsapp.png";
+import whatsappicon from "/assets/whatsapp.png";
 function WhatsApp() {
   return (
     <div className={styles.whatsappContainer}>

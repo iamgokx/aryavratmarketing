@@ -4,83 +4,83 @@
     "client": "Casino Pride",
     "size": "35x20 Front-Lit Double-Side Billboard",
     "description": "High-stakes visibility on the Aggassaim Highway! This billboard grabs every eye heading through Goa\u2019s busiest highway.",
-    "img": "/public/assets/CampaignImages/Aggassaim Highway.png"
+    "img": "/assets/CampaignImages/Aggassaim Highway.png"
   },
   {
     "location": "Mopa Airport Toll",
     "client": "Hosa and Casino Phoenix",
     "size": "80x25 Front-Lit Billboard",
     "description": "A grand welcome at Mopa Airport Toll \u2014 this massive front-lit billboard captures every traveller\u2019s first glance into Goa.",
-    "img": "/public/assets/CampaignImages/Mopa Airport Toll.png"
+    "img": "/assets/CampaignImages/Mopa Airport Toll.png"
   },
   {
     "location": "Cortalim",
     "client": "Casino Pride",
     "size": "6x3 Front-Lit Double-Side Poles",
     "description": "Lining the route at Cortalim, these front-lit pole offer sharp, sequential visibility \u2014 impossible to miss, even in motion.",
-    "img": "/public/assets/CampaignImages/Cortalim.png"
+    "img": "/assets/CampaignImages/Cortalim.png"
   },
   {
     "location": "Dabolim Airport",
     "client": "Fairplay - 3D",
     "size": "20x10 Front-Lit Billboard",
     "description": "A bold presence at Dabolim Airport \u2013 capturing attention right at Goa\u2019s primary entry point, with eye-catching impact.",
-    "img": "/public/assets/CampaignImages/Dabolim Airport.png"
+    "img": "/assets/CampaignImages/Dabolim Airport.png"
   },
   {
     "location": "Merces Highway",
     "client": "Casino Cadillac - 3D",
     "size": "35x10 Front-Lit Billboard",
     "description": "This billboard on Merces Highway gives a powerful, standout moment on one of Goa\u2019s busiest travel routes.",
-    "img": "/public/assets/CampaignImages/Merces Highway(1).png"
+    "img": "/assets/CampaignImages/Merces Highway(1).png"
   },
   {
     "location": "Dabolim Bus Stand",
     "client": "Watson",
     "size": "35x5, 6.5x5 Back-Lit Bus stop",
     "description": "Back-lit bus shelter ads that engage daily commuters with clarity and class at Dabolim.",
-    "img": "/public/assets/CampaignImages/Dabolim Bustand.png"
+    "img": "/assets/CampaignImages/Dabolim Bustand.png"
   },
   {
     "location": "Merces Highway",
     "client": "Cadillac Casino - 3D",
     "size": "35x10 Front-Lit Billboard",
     "description": "This billboard on Merces Highway delivers a bold, high-impact presence along one of Goa\u2019s most travelled routes.",
-    "img": "/public/assets/CampaignImages/Merces Highway.png"
+    "img": "/assets/CampaignImages/Merces Highway.png"
   },
   {
     "location": "Cansaulim Panchayat Road",
     "client": "Kenilworth",
     "size": "6x3 Poles Double-Side",
     "description": "A charming local route lit up by these poles create a consistent brand recall near South Goa\u2019s tourist belt.",
-    "img": "/public/assets/CampaignImages/Cansaulim Panchayat Road.png"
+    "img": "/assets/CampaignImages/Cansaulim Panchayat Road.png"
   },
   {
     "location": "Cortalim Highway",
     "client": "Casino Pride",
     "size": "6x3 Front-Lit Double-Side Poles",
     "description": "A high-frequency visibility campaign on Cortalim Highway with a series of striking pole ads.",
-    "img": "/public/assets/CampaignImages/Cortalim Highway.png"
+    "img": "/assets/CampaignImages/Cortalim Highway.png"
   },
   {
     "location": "Mopa",
     "client": "Kingfisher",
     "size": "55x18 Front-Lit Billboard",
     "description": "Strategically placed along the Mopa Airport route, this billboard commands attention on one of Goa\u2019s newest and most dynamic highway stretches.",
-    "img": "/public/assets/CampaignImages/Mopa.png"
+    "img": "/assets/CampaignImages/Mopa.png"
   },
   {
     "location": "Goa Velha Highway",
     "client": "Big Daddy",
     "size": "35x18 Front-lit Double-Side",
     "description": "Positioned on the fast-moving Goa Velha stretch, this billboard dominates the highway chatter with unmissable road presence.",
-    "img": "/public/assets/CampaignImages/Goa Velha Highway.png"
+    "img": "/assets/CampaignImages/Goa Velha Highway.png"
   },
   {
     "location": "Verna Highway",
     "client": "Royal Orchid",
     "size": "6x3 Double-Side Poles",
     "description": "Staying on top-of-mind along Verna Highway \u2014 sleek poles that echo elegance en route to Goa\u2019s business belt.",
-    "img": "/public/assets/CampaignImages/Verna Highway7.png"
+    "img": "/assets/CampaignImages/Verna Highway7.png"
   }
 ]

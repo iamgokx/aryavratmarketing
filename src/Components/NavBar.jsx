@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import styles from "../styles/NavBar.module.css";
-import logo from "/public/assets/logos/logo.svg";
+import logo from "/assets/logos/logo.svg";
 import { Link } from "react-router-dom";
 import { GoDownload } from "react-icons/go";
-import portfolio from '/public/assets/Aryavrat Marketing Brochure.pdf'
+import portfolio from "/assets/Aryavrat Marketing Brochure.pdf";
 function NavBar() {
   const [scrolled, setScrolled] = useState(false);
 
@@ -26,10 +26,7 @@ function NavBar() {
       </div>
 
       <div className={styles.navLinksContainer}>
-        <a
-          href={portfolio}
-          target="_blank"
-          rel="noopener noreferrer">
+        <a href={portfolio} target="_blank" rel="noopener noreferrer">
           Portfolio <GoDownload className={styles.portfolioDownloadbutton} />
         </a>
 

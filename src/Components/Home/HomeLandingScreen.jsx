@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../styles/Home/HomeLandingScreen.module.css";
 import homeLoopClip from "/assets/videos/homeLandingScreen.mp4";
-import homeLandingLogo from "/public/assets/logos/homeLanding.png";
+import homeLandingLogo from "/assets/logos/homeLanding.png";
 import { BsWhatsapp } from "react-icons/bs";
 function HomeLandingScreen() {
   return (

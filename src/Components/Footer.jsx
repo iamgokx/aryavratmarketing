@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Footer.module.css";
-import logo from "/public/assets/logos/logo.png";
+import logo from "/assets/logos/logo.png";
 import { LuInstagram } from "react-icons/lu";
 import { TiSocialFacebookCircular } from "react-icons/ti";
 import { LuLinkedin } from "react-icons/lu";
