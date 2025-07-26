@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 import { IoArrowForward } from "react-icons/io5";
 import CallToActionBanner from "../Components/CallToActionBanner";
 import TestimonialCard from "../Components/TestimonialCard";
-import logoanimation from "/assets/videos/logo trans_chf3_prob3.mp4";
+
 import testimonials from "../../siteData/testimonials.json";
 import CallToActionBannerTwo from "../Components/CallToActionBannerTwo";
 import SiteLoader from "../Components/SiteLoader";
