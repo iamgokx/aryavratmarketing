@@ -16,7 +16,8 @@ import ImageGallery from "./pages/ImageGallery";
 import VideoBackground from "./Components/VideoBackground";
 import WhatsApp from "./Components/whatsApp";
 import ScrollToTop from "./Components/ScrollToTop";
-
+import SiteLoader from "./Components/SiteLoader";
+import { useState } from "react";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -27,18 +28,23 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <NavBar></NavBar>
-      <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/clients" element={<Clients />} />
-        <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/gallery" element={<ImageGallery />} />
-      </Routes>
-      <WhatsApp></WhatsApp>
-      <Footer></Footer>
-    </Router>
+    <>
+      <Router>
+        <VideoBackground />
+
+        <SiteLoader />
+        <NavBar></NavBar>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/clients" element={<Clients />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/gallery" element={<ImageGallery />} />
+        </Routes>
+        <WhatsApp></WhatsApp>
+        <Footer></Footer>
+      </Router>
+    </>
   );
 }
 

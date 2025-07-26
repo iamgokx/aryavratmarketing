@@ -1,9 +1,10 @@
 import React from "react";
+
 import styles from "../styles/Home/HomePage.module.css";
 import HomeLandingScreen from "../Components/Home/HomeLandingScreen";
 import { FaLessThanEqual } from "react-icons/fa6";
 import Slider from "react-slick";
-import campaignsImgs from '../../siteData/campaigns.json'
+import campaignsImgs from "../../siteData/campaigns.json";
 
 import stat1 from "/assets/homepage/stat1.svg";
 import stat2 from "/assets/homepage/stat2.svg";
@@ -17,11 +18,11 @@ import { Link } from "react-router-dom";
 import { IoArrowForward } from "react-icons/io5";
 import CallToActionBanner from "../Components/CallToActionBanner";
 import TestimonialCard from "../Components/TestimonialCard";
-
+import logoanimation from "/assets/videos/logo trans_chf3_prob3.mp4";
 import testimonials from "../../siteData/testimonials.json";
 import CallToActionBannerTwo from "../Components/CallToActionBannerTwo";
+import SiteLoader from "../Components/SiteLoader";
 function Homepage() {
- 
   const settings = {
     dots: false,
     arrows: false,
@@ -131,6 +132,8 @@ function Homepage() {
 
   return (
     <>
+    
+
       <HomeLandingScreen></HomeLandingScreen>
 
       <section className={styles.homeSection}>
@@ -266,9 +269,9 @@ function Homepage() {
             <IoArrowForward className={styles.arrowIcon} />{" "}
           </Link>
         </div>
-        </section>
-        <CallToActionBanner></CallToActionBanner>
-        <section className={styles.homeSection}>
+      </section>
+      <CallToActionBanner></CallToActionBanner>
+      <section className={styles.homeSection}>
         <div className={styles.testimonialsContainer}>
           <h2>
             Testimonials - What <span>Our Clients</span> Say!
@@ -296,7 +299,7 @@ function Homepage() {
           </Slider>
 
           <div className={styles.viewAllBtnContainer}>
-            <Link className={styles.viewAllButton} to={'/clients'}>
+            <Link className={styles.viewAllButton} to={"/clients"}>
               View All Client Stories{" "}
               <IoArrowForward className={styles.arrowIcon} />
             </Link>
