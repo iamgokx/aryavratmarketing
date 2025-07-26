@@ -9,6 +9,8 @@ import { Link } from "react-router-dom";
 import { TiLocation } from "react-icons/ti";
 import { IoMdCall } from "react-icons/io";
 import { CiMail } from "react-icons/ci";
+import { GoDownload } from "react-icons/go";
+import portfolio from "/assets/Aryavrat Marketing Brochure.pdf";
 function Footer() {
   return (
     <footer>
@@ -42,14 +44,14 @@ function Footer() {
             Home
           </Link>
 
-          <Link to={"/"} className={styles.link}>
-            Portfolio
-          </Link>
+          <a href={portfolio} target="_blank" rel="noopener noreferrer">
+            Portfolio <GoDownload className={styles.link} />
+          </a>
 
-          <Link to={"/"} className={styles.link}>
+          <Link to={"/clients"} className={styles.link}>
             Clients
           </Link>
-          <Link to={"/"} className={styles.link}>
+          <Link to={"/contact-us"} className={styles.link}>
             Contact Us
           </Link>
           <Link to={"/gallery"} className={styles.link}>

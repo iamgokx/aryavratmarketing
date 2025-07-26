@@ -296,7 +296,7 @@ function Homepage() {
           </Slider>
 
           <div className={styles.viewAllBtnContainer}>
-            <Link className={styles.viewAllButton}>
+            <Link className={styles.viewAllButton} to={'/clients'}>
               View All Client Stories{" "}
               <IoArrowForward className={styles.arrowIcon} />
             </Link>

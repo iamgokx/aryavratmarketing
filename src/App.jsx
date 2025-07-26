@@ -15,6 +15,7 @@ import ContactUs from "./pages/ContactUs";
 import ImageGallery from "./pages/ImageGallery";
 import VideoBackground from "./Components/VideoBackground";
 import WhatsApp from "./Components/whatsApp";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
   return (
     <Router>
       <NavBar></NavBar>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/clients" element={<Clients />} />
