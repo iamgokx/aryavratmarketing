@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "../styles/SiteLoader.module.css";
-import logoanimation from "/assets/videos/logo trans_chf3_prob3.mp4";
+import logoanimation from "/assets/videos/siteLoader.mp4";
 
 const SiteLoader = () => {
   const [showLoader, setShowLoader] = useState(false);
