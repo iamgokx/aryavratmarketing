@@ -261,7 +261,7 @@ function Homepage() {
 
       <section className={styles.homeSection}>
         <div className={styles.viewMoreContainer}>
-          <Link className={styles.viewMoreButton} to={"/"}>
+          <Link className={styles.viewMoreButton} to={"/clients"}>
             View More
             <IoArrowForward className={styles.arrowIcon} />{" "}
           </Link>

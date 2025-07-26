@@ -37,11 +37,6 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  
-}
-
-.size{
-  color: var(--primary-color) !important;
 }
 
 .details p {
@@ -51,16 +46,21 @@
   display: flex;
   align-items: center;
   color: black;
-  font-family: var(--body-font) ;
 }
 
-.client{
-  font-family: var(--heading-font) !important;
+.client {
+  font-family: var(--heading-font), sans-serif !important;
   font-weight: 600;
   font-size: 1.5rem !important;
-  
+}
+.size {
+  color: var(--primary-color) !important;
+  font-family: var(--subheading-font) !important;
 }
 
+.descripton {
+  font-family: var(--body-font), sans-serif !important;
+}
 
 .viewBtn {
   background-color: #f8dede;
