@@ -22,7 +22,7 @@ function CallToActionBanner() {
           strategically positioned throughout Goa
         </p>
 
-        <Link className={styles.link}>
+        <Link className={styles.link} to={'/sites'}>
           Explore Sites <IoArrowForward className={styles.arrowIcon} />
         </Link>
       </div>
