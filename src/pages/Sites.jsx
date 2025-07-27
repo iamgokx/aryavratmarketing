@@ -1,0 +1,191 @@
+import React, { useState } from "react";
+import styles from "../styles/Sites/sites.module.css";
+import PageHeading from "../Components/PageHeading";
+import northSites from "../../siteData/SitesNorth.json";
+import southSites from "../../siteData/SitesSouth.json";
+import { useNavigate } from "react-router-dom";
+import SiteCard from "../Components/Sites/SiteCard";
+import { RiCloseCircleLine } from "react-icons/ri";
+import { SlSizeFullscreen } from "react-icons/sl";
+import { HiLocationMarker } from "react-icons/hi";
+import { IoEye } from "react-icons/io5";
+import { FaMapLocationDot } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
+import { LuUtilityPole } from "react-icons/lu";
+
+import Slider from "react-slick";
+function Sites() {
+  const [activeTab, setActiveTab] = useState("north");
+  const navigate = useNavigate();
+  const sitesData = activeTab === "north" ? northSites : southSites;
+  const [selectedLocationId, setSelectedLocationId] = useState(null);
+  const [selectedSite, setSelectedSite] = useState(null);
+
+  const groupedSites = [];
+  const seen = new Set();
+
+  for (const site of sitesData) {
+    const locationId = site.locationid;
+    if (!seen.has(locationId)) {
+      groupedSites.push(site);
+      seen.add(locationId);
+    }
+  }
+
+  const handleCardClick = (locationid) => {
+    setSelectedLocationId(locationid);
+  };
+
+  const handleClosePopup = () => {
+    setSelectedLocationId(null);
+    setSelectedSite(null);
+  };
+
+  const settings = {
+    dots: false,
+    arrows: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    pauseOnHover: false,
+  };
+
+  return (
+    <>
+      <PageHeading
+        title={"Premium Advertising Sites Across Goa"}
+        contentOne={
+          "Discover our extensive network of high-impact advertising sites across"
+        }
+        contentTwo={"locations strategically positioned throughout Goa"}
+      />
+      <section className={styles.sitesSection}>
+        <div className={styles.buttonGroup}>
+          <button
+            className={`${styles.tabButton} ${
+              activeTab === "north" ? styles.active : ""
+            }`}
+            onClick={() => setActiveTab("north")}>
+            North Goa
+          </button>
+          <button
+            className={`${styles.tabButton} ${
+              activeTab === "south" ? styles.active : ""
+            }`}
+            onClick={() => setActiveTab("south")}>
+            South Goa
+          </button>
+        </div>
+        <h3 className={styles.locationHeading}>{activeTab} Goa Locations</h3>
+        <div className={styles.siteList}>
+          {groupedSites.map((site, index) => (
+            <SiteCard
+              img={site.media[0]}
+              locationid={site.locationid}
+              district={site.district}
+              description={site.location}
+              openSite={handleCardClick}
+              key={`${site.locationid} ${index}`}
+            />
+          ))}
+        </div>
+
+        {selectedLocationId && (
+          <div className={styles.popUpOverlay}>
+            <div className={styles.popUpContainer}>
+              <div className={styles.popUpHeader}>
+                <RiCloseCircleLine
+                  className={styles.closePopUpIcon}
+                  onClick={handleClosePopup}
+                />
+                <h2>Premium Advertising Sites Across Goa</h2>
+              </div>
+
+              <div className={styles.sitesMainContainer}>
+                <div className={styles.sitesListContainer}>
+                  <h4>{activeTab} Goa Locations</h4>
+                  <h3>{selectedLocationId}</h3>
+
+                  {sitesData
+                    .filter(
+                      (site) =>
+                        site.locationid === selectedLocationId &&
+                        site.lease == "false"
+                    )
+                    .map((site, idx) => (
+                      <p
+                        key={idx}
+                        className={styles.siteNameButton}
+                        onClick={() => setSelectedSite(site)}>
+                        {site.name} - {site.size}
+                      </p>
+                    ))}
+                </div>
+
+                <div className={styles.sitesDetailContainer}>
+                  {selectedSite ? (
+                    <>
+                      {selectedSite.lease == "false" && (
+                        <>
+                          <div className={styles.sliderWrapper}>
+                            <Slider {...settings} className={styles.slider}>
+                              {selectedSite.media.map((img, index) => (
+                                <div key={`${index} ${img}`}>
+                                  <img src={img} alt={`Slide ${index}`} />
+                                </div>
+                              ))}
+                            </Slider>
+                          </div>
+
+                          <div className={styles.selectedSiteContentContainer}>
+                            <p>
+                              <SlSizeFullscreen className={styles.siteIcon} />
+                              {selectedSite.size}
+                            </p>
+                            {selectedSite.quantity > 1 && (
+                              <p>
+                                <LuUtilityPole className={styles.siteIcon} />
+                                {selectedSite.quantity} Poles
+                              </p>
+                            )}
+                            <p>
+                              <HiLocationMarker className={styles.siteIcon} />{" "}
+                              {selectedSite.location}
+                            </p>
+                            <p>
+                              <IoEye className={styles.siteIcon} />
+                              {selectedSite.sides || ""} {selectedSite.lit}
+                            </p>
+                          </div>
+
+                          <div className={styles.btnContainer}>
+                            <a href={selectedSite.link} target="_blank">
+                              Map Link
+                              <FaMapLocationDot className={styles.siteIcon} />
+                            </a>
+                            <a
+                              href="https://wa.me/919209016102"
+                              target="_blank">
+                              Know More
+                              <FaWhatsapp className={styles.siteIcon} />
+                            </a>
+                          </div>
+                        </>
+                      )}
+                    </>
+                  ) : (
+                    <p className={styles.selectSiteText}>Select a site to view details</p>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </section>
+    </>
+  );
+}
+
+export default Sites;

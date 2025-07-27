@@ -43,6 +43,9 @@ function Footer() {
           <Link to={"/"} className={styles.link}>
             Home
           </Link>
+          <Link to={"/sites"} className={styles.link}>
+            Sites
+          </Link>
 
           <a href={portfolio} target="_blank" rel="noopener noreferrer">
             Portfolio <GoDownload className={styles.link} />

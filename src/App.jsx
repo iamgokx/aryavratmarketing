@@ -18,6 +18,7 @@ import WhatsApp from "./Components/whatsApp";
 import ScrollToTop from "./Components/ScrollToTop";
 import SiteLoader from "./Components/SiteLoader";
 import { useState } from "react";
+import Sites from "./pages/Sites";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -40,6 +41,7 @@ function App() {
           <Route path="/clients" element={<Clients />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/gallery" element={<ImageGallery />} />
+          <Route path="/sites" element={<Sites />} />
         </Routes>
         <WhatsApp></WhatsApp>
         <Footer></Footer>

@@ -1,0 +1,445 @@
+[
+  {
+    "id": "1",
+    "locationid": "Agassaim",
+    "district": "North Goa",
+    "name": "Agassaim Cortalim Bridge",
+    "size": "35x18",
+    "quantity": "1",
+    "sides": "Double-side",
+    "lit": "Front-Lit",
+    "location": "Agassaim-Cortalim Bridge, going towards Panjim/Mopa/North Goa and Vasco/Margao/South Goa",
+    "link": "https://maps.app.goo.gl/qNDg9pv4w41mh88MA",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "2",
+    "locationid": "Agassaim",
+    "district": "North Goa",
+    "name": "Agassaim Cortalim Bridge Exit/Entry",
+    "size": "35x20",
+    "quantity": "1",
+    "sides": "Double-side",
+    "lit": "Front-Lit",
+    "location": "Agassaim-Cortalim Bridge, going towards Panjim/Mopa/North Goa and Vasco/Margao/South Goa",
+    "link": "https://maps.app.goo.gl/kMfqPUX36A9eW9xA8",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "3",
+    "locationid": "Agassaim",
+    "district": "North Goa",
+    "name": "Agassaim Highway",
+    "size": "6x3",
+    "quantity": "34",
+    "sides": "Double-side",
+    "lit": "Back-Lit",
+    "location": "Agassaim Highway, going towards Panjim/Mopa/North Goa and Vasco/Margao/South Goa",
+    "link": "https://maps.app.goo.gl/XA2wfF4ycfl3kRqKu8",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "4",
+    "locationid": "Agassaim",
+    "district": "North Goa",
+    "name": "Agassaim Highway",
+    "size": "65x20",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Agassaim Highway, going towards Panjim/Mopa/North Goa",
+    "link": "https://maps.app.goo.gl/7U4iRJSvt8YwQrv36",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "5",
+    "locationid": "Goa Velha",
+    "district": "North Goa",
+    "name": "Goa Velha Highway",
+    "size": "55x18",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Goa Velha Highway, going towards Panjim/Mopa/North Goa",
+    "link": "https://maps.app.goo.gl/Dz5AUA9FyuB2CdEH7",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "6",
+    "locationid": "Goa Velha",
+    "district": "North Goa",
+    "name": "Goa Velha Highway",
+    "size": "55x20",
+    "quantity": "1",
+    "sides": "Double-side",
+    "lit": "Front-Lit",
+    "location": "Goa Velha Highway, going towards Panjim/Mopa/North Goa and Vasco/Margao/South Goa",
+    "link": "https://maps.app.goo.gl/GfVpSvrqNQUrsazT6",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+
+  {
+    "id": "7",
+    "locationid": "Merces",
+    "district": "North Goa",
+    "name": "Merces Highway Poles",
+    "size": "6x3",
+    "quantity": "18",
+    "sides": "Double-side",
+    "lit": "Back-Lit",
+    "location": "Merces Highway, going towards Panjim/Mopa/North Goa and Vasco/Margao/South Goa",
+    "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "8",
+    "locationid": "Merces",
+    "district": "North Goa",
+    "name": "Merces Highway",
+    "size": "35x10",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Merces Highway, going towards Panjim/Mopa/North Goa",
+    "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "9",
+    "locationid": "Merces",
+    "district": "North Goa",
+    "name": "Merces Highway",
+    "size": "35x10",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Merces Highway, going towards Panjim/Mopa/North Goa",
+    "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "10",
+    "locationid": "Merces",
+    "district": "North Goa",
+    "name": "Merces Highway",
+    "size": "35x10",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Merces Highway, going towards Panjim/Mopa/North Goa",
+    "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "11",
+    "locationid": "Merces",
+    "district": "North Goa",
+    "name": "Merces Highway",
+    "size": "35x10",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Merces Highway, going towards Panjim/Mopa/North Goa",
+    "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "12",
+    "locationid": "Merces",
+    "district": "North Goa",
+    "name": "Merces Highway",
+    "size": "35x10",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Merces Highway, going towards Panjim/Mopa/North Goa",
+    "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "13",
+    "locationid": "Merces",
+    "district": "North Goa",
+    "name": "Merces Highway",
+    "size": "35x10",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Merces Highway, going towards Panjim/Mopa/North Goa",
+    "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "14",
+    "locationid": "Gurim",
+    "district": "North Goa",
+    "name": "Billboard",
+    "size": "60x20",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Gurim",
+    "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
+    "lease": "true",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "15",
+    "locationid": "Bastora",
+    "district": "North Goa",
+    "name": "Bastora Highway",
+    "size": "40x20",
+    "quantity": "1",
+    "sides": "Double-side",
+    "lit": "Front-Lit",
+    "location": "Bastora Highway, going towards Mopa/North Goa and Panjim/North Goa/Vasco/Margao/South Goa",
+    "link": "https://maps.app.goo.gl/6m42sMvPyzYTckMG9",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "16",
+    "locationid": "Colvale",
+    "district": "North Goa",
+    "name": "Billboard",
+    "size": "40x20",
+    "quantity": "1",
+    "sides": "Double-side",
+    "lit": "Front-Lit",
+    "location": "Colvale",
+    "link": "",
+    "lease": "true",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "17",
+    "locationid": "Colvale",
+    "district": "North Goa",
+    "name": "Colvale Highway",
+    "size": "50x20",
+    "quantity": "1",
+    "sides": "Double-side",
+    "lit": "Front-Lit",
+    "location": "Colvale Highway, going towards Mopa/North Goa and Panjim/North Goa/Vasco/Margao/South Goa",
+    "link": "https://maps.app.goo.gl/zJGuSuByGJPFaW2p8?g_st=aw",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "18",
+    "locationid": "Mopa/Airport",
+    "district": "North Goa",
+    "name": "Mopa",
+    "size": "100x18",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Mopa Road, going towards Panjim/North Goa and Vasco/Margao/South Goa",
+    "link": "https://maps.app.goo.gl/tbAjpaT8x4Quv43x8",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "19",
+    "locationid": "Mopa/Airport",
+    "district": "North Goa",
+    "name": "Mopa Airport  Exit Toll  ",
+    "size": "60x20",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Mopa airport exit, going towards Panjim/North Goa and Vasco/Margao/South Goa",
+    "link": "https://maps.app.goo.gl/tbAjpaT8x4Quv43x8",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "20",
+    "locationid": "Mopa/Airport",
+    "district": "North Goa",
+    "name": "Mopa Airport  Exit Toll  ",
+    "size": "80x25",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Mopa airport exit, going towards Panjim/North Goa and Vasco/Margao/South Goa",
+    "link": "https://maps.app.goo.gl/gswKi6Zm9sgmSxn96",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "21",
+    "locationid": "Mopa/Airport",
+    "district": "North Goa",
+    "name": "Mopa Airport  Exit Toll  ",
+    "size": "80x25",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Mopa airport exit, going towards Panjim/North Goa and Vasco/Margao/South Goa",
+    "link": "https://maps.app.goo.gl/gswKi6Zm9sgmSxn96",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "22",
+    "locationid": "Mopa/Airport",
+    "district": "North Goa",
+    "name": "Mopa Airport  Exit Toll  ",
+    "size": "60x40",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "Mopa airport exit, going towards Panjim/North Goa and Vasco/Margao/South Goa",
+    "link": "https://maps.app.goo.gl/gswKi6Zm9sgmSxn96",
+    "lease": "false",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "23",
+    "locationid": "Mopa/Airport",
+    "district": "North Goa",
+    "name": "Billboard",
+    "size": "80x25",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "",
+    "link": "",
+    "lease": "true",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "24",
+    "locationid": "Mopa/Airport",
+    "district": "North Goa",
+    "name": "Billboard",
+    "size": "80x25",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "",
+    "link": "",
+    "lease": "true",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "25",
+    "locationid": "Mopa/Airport",
+    "district": "North Goa",
+    "name": "Billboard",
+    "size": "60x40",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "",
+    "link": "",
+    "lease": "true",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  },
+  {
+    "id": "26",
+    "locationid": "Mopa/Airport",
+    "district": "North Goa",
+    "name": "Billboard",
+    "size": "60x40",
+    "quantity": "1",
+    "sides": "",
+    "lit": "Front-Lit",
+    "location": "",
+    "link": "",
+    "lease": "true",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ]
+  }
+]

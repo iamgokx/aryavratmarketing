@@ -33,7 +33,7 @@ function NavBar() {
         <Link className={styles.link} to={"/"}>
           Home
         </Link>
-        <Link className={styles.link} to={"/"}>
+        <Link className={styles.link} to={"/sites"}>
           Sites
         </Link>
 
