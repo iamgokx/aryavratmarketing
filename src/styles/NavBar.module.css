@@ -39,6 +39,15 @@ a {
   align-items: center;
   justify-content: center;
   gap: 5px;
+  transition: 0.5s;
+}
+
+.link:hover{
+  color: var(--primary-color);
+}
+
+nav a:hover{
+  color: var(--primary-color);
 }
 
 .portfolioDownloadbutton {
@@ -50,6 +59,11 @@ a {
   border-radius: 40px;
   padding: 1rem 2rem;
   margin-left: 4rem;
+}
+
+.contactUsButton:hover{
+  background-color: white;
+  color: black;
 }
 
 .scrolled {
