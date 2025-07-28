@@ -1,28 +1,3 @@
-/* blue is south 
-orange is north
-green are not yet put up till now, so jus add status not yet up, keep then on data json file 
-ots is not needed 
-lease, dont add them yet, light blue ones not to yet 
-
-yellow one ignore that is for him
-
-
-
-media name + the size is the overall title for the sites pop up
-
-on the pupu i need first the north or south , then the name of the loaciton 
-
-so on the card, the desc same to be added in the popup below th name of the main location 
-
-instead of book site btn , use "Map link" and a icon to show its of google map link
-
-
-------------
-
-whenever we are doing poles, we have to mention quantity also , ignore places where quantity is 1 , else dont add quantity in the card, jus above loacion pin, after type, only for poles as "Quanityt <number>"
-
-bg of site 
- */
 
 .sitesSection {
   width: 70%;

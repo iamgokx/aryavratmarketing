@@ -87,6 +87,7 @@ function Sites() {
               district={site.district}
               description={site.location}
               openSite={handleCardClick}
+              locationDesc={site.locationDescription}
               key={`${site.locationid} ${index}`}
             />
           ))}
@@ -176,7 +177,9 @@ function Sites() {
                       )}
                     </>
                   ) : (
-                    <p className={styles.selectSiteText}>Select a site to view details</p>
+                    <p className={styles.selectSiteText}>
+                      Select a site to view details
+                    </p>
                   )}
                 </div>
               </div>

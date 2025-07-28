@@ -1,0 +1,36 @@
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #222;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color:white;
+  
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color:white;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #666;
+}

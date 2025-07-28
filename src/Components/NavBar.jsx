@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import styles from "../styles/NavBar.module.css";
 import logo from "/assets/logos/logo.svg";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+
 import { GoDownload } from "react-icons/go";
 import portfolio from "/assets/Aryavrat Marketing Brochure.pdf";
 function NavBar() {
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,17 +32,35 @@ function NavBar() {
           Portfolio <GoDownload className={styles.portfolioDownloadbutton} />
         </a>
 
-        <Link className={styles.link} to={"/"}>
+        <Link
+          className={`${styles.link} ${
+            location.pathname === "/" ? styles.activeLink : ""
+          }`}
+          to="/">
           Home
         </Link>
-        <Link className={styles.link} to={"/sites"}>
+
+        <Link
+          className={`${styles.link} ${
+            location.pathname === "/sites" ? styles.activeLink : ""
+          }`}
+          to="/sites">
           Sites
         </Link>
 
-        <Link className={styles.link} to={"/clients"}>
+        <Link
+          className={`${styles.link} ${
+            location.pathname === "/clients" ? styles.activeLink : ""
+          }`}
+          to="/clients">
           Clients
         </Link>
-        <Link className={styles.link} to={"/gallery"}>
+
+        <Link
+          className={`${styles.link} ${
+            location.pathname === "/gallery" ? styles.activeLink : ""
+          }`}
+          to="/gallery">
           Gallery
         </Link>
 

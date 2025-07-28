@@ -27,9 +27,7 @@ function Clients() {
             visibility that works.
           </p>
           <p>
-            Our hoardings have launched campaigns, built trust, and created buzz
-            across Goa.Here’s a glimpse of who’s been up there and a look
-            forward to our brand joining the list!
+          Our hoardings have launched campaigns, built trust, and created buzz across Goa. Here's a glimpse of who has been up there and a look forward to your brand joining the list.
           </p>
 
           <div className={styles.clientsContainer}>

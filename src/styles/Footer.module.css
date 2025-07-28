@@ -34,10 +34,15 @@ footer {
   gap: 2rem;
   margin-top: auto;
 }
+
 .icon {
   color: white;
   font-size: 2rem;
   transition: 0.5s;
+}
+.fbIcon{
+  font-size: 3rem;
+
 }
 
 .icon:hover {

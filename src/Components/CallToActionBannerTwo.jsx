@@ -2,7 +2,9 @@ import React from "react";
 import styles from "../styles/CallToActionBannerTwo.module.css";
 import { IoMdCall } from "react-icons/io";
 import { CiMail } from "react-icons/ci";
-import { TiLocation } from "react-icons/ti";
+
+import { FaInstagram } from "react-icons/fa6";
+
 import bgImg from "/assets/videos/banner.gif";
 import { Link } from "react-router-dom";
 function CallToActionBannerTwo() {
@@ -50,7 +52,7 @@ function CallToActionBannerTwo() {
             </div>
           </div>
           <div className={styles.linksContainer}>
-            <TiLocation className={styles.icon} />
+            <FaInstagram className={styles.icon} />
             <div className={styles.linkContent}>
               <span>Follow Us</span>
               <a href="">@aryavrat.marketing</a>

@@ -19,6 +19,8 @@ import ScrollToTop from "./Components/ScrollToTop";
 import SiteLoader from "./Components/SiteLoader";
 import { useState } from "react";
 import Sites from "./pages/Sites";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfUse from "./pages/TermsOfUse";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -42,6 +44,8 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/gallery" element={<ImageGallery />} />
           <Route path="/sites" element={<Sites />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-use" element={<TermsOfUse />} />
         </Routes>
         <WhatsApp></WhatsApp>
         <Footer></Footer>

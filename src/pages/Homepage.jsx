@@ -95,7 +95,7 @@ function Homepage() {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting && !hasAnimated) {
-          countUp(900000, 1000000, 2000, setPeople);
+          countUp(9000000, 10000000, 2000, setPeople);
           countUp(0, 100, 2000, setSites);
           countUp(0, 1000, 2000, setOts);
           setHasAnimated(true);
@@ -113,7 +113,7 @@ function Homepage() {
   const features = [
     {
       title: "Standout Visibility",
-      content: "Unmissable billboard spots across Goa’s most prime locations.",
+      content: "Unmissable Billboard spots across Goa’s most prime locations.",
     },
     {
       title: "Brand Recognition",
@@ -132,8 +132,6 @@ function Homepage() {
 
   return (
     <>
-    
-
       <HomeLandingScreen></HomeLandingScreen>
 
       <section className={styles.homeSection}>
@@ -199,7 +197,7 @@ function Homepage() {
           <p className={styles.aboutUsdesc}>
             We’re not just an outdoor advertising agency - we’re Goa’s most
             exclusive hoarding network. From airport exits to busy highways, our
-            billboard locations are chosen to get your brand noticed. With
+            Billboard locations are chosen to get your brand noticed. With
             strong local presence and smart placement, we give you visibility
             that works.
           </p>
@@ -241,14 +239,14 @@ function Homepage() {
           </p>
 
           <p>
-            From global names to home grown brands, we’ve worked with companies
-            that understand the power of being seen and these brands chose
-            visibility that works. Our hoardings have launched campaigns, built
-            trust, and created buzz across Goa.Here’s a glimpse of who’s been up
-            there and a look forward to our brand joining the list!
+            Our hoardings have launched campaigns, built trust, and created buzz
+            across Goa. Here's a glimpse of who has been up there and a look
+            forward to your brand joining the list.
           </p>
 
-          <div className={styles.carousel}></div>
+          <h2 className={styles.carouseHeading}>
+            Our Clients - Brands That <span>Trust</span> Us!
+          </h2>
         </div>
       </section>
       <div className={styles.track}>

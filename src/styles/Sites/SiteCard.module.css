@@ -21,6 +21,17 @@
   transition: 0.5s;
 }
 
+
+.contentContainer span{
+  color: black;
+  font-family: var(--subheading-font);
+}
+.siteCardContainer:hover span {
+  color: white;
+  transition: 0.5s;
+}
+
+
 .siteCardContainer img {
   width: 100%;
 }
@@ -43,8 +54,11 @@
   flex-direction: row;
   align-items: center;
   transition: 0.5s;
+  margin-bottom: 1rem;
 }
 
 .pinIcon {
   font-size: 1.7rem;
 }
+
+

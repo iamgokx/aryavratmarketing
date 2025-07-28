@@ -1,10 +1,9 @@
 [
   {
-    "id": "1",
     "locationid": "Agassaim",
     "district": "North Goa",
     "name": "Agassaim Cortalim Bridge",
-    "size": "35x18",
+    "size": "35x18 Feet",
     "quantity": "1",
     "sides": "Double-side",
     "lit": "Front-Lit",
@@ -12,16 +11,16 @@
     "link": "https://maps.app.goo.gl/qNDg9pv4w41mh88MA",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ],
+    "locationDescription": "Heavy highway traffic makes this a strong location for bold, fast-impact Billboards on the go."
   },
   {
-    "id": "2",
     "locationid": "Agassaim",
     "district": "North Goa",
     "name": "Agassaim Cortalim Bridge Exit/Entry",
-    "size": "35x20",
+    "size": "35x20 Feet",
     "quantity": "1",
     "sides": "Double-side",
     "lit": "Front-Lit",
@@ -29,16 +28,15 @@
     "link": "https://maps.app.goo.gl/kMfqPUX36A9eW9xA8",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "3",
     "locationid": "Agassaim",
     "district": "North Goa",
     "name": "Agassaim Highway",
-    "size": "6x3",
+    "size": "6x3 Feet",
     "quantity": "34",
     "sides": "Double-side",
     "lit": "Back-Lit",
@@ -46,16 +44,15 @@
     "link": "https://maps.app.goo.gl/XA2wfF4ycfl3kRqKu8",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "4",
     "locationid": "Agassaim",
     "district": "North Goa",
     "name": "Agassaim Highway",
-    "size": "65x20",
+    "size": "65x20 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -63,16 +60,15 @@
     "link": "https://maps.app.goo.gl/7U4iRJSvt8YwQrv36",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "5",
     "locationid": "Goa Velha",
     "district": "North Goa",
     "name": "Goa Velha Highway",
-    "size": "55x18",
+    "size": "55x18 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -80,16 +76,16 @@
     "link": "https://maps.app.goo.gl/Dz5AUA9FyuB2CdEH7",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ],
+    "locationDescription": "A busy connector stretch with long visibility zones - perfect for campaigns"
   },
   {
-    "id": "6",
     "locationid": "Goa Velha",
     "district": "North Goa",
     "name": "Goa Velha Highway",
-    "size": "55x20",
+    "size": "55x20 Feet",
     "quantity": "1",
     "sides": "Double-side",
     "lit": "Front-Lit",
@@ -97,17 +93,16 @@
     "link": "https://maps.app.goo.gl/GfVpSvrqNQUrsazT6",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
 
   {
-    "id": "7",
     "locationid": "Merces",
     "district": "North Goa",
     "name": "Merces Highway Poles",
-    "size": "6x3",
+    "size": "6x3 Feet",
     "quantity": "18",
     "sides": "Double-side",
     "lit": "Back-Lit",
@@ -115,16 +110,16 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ],
+    "locationDescription": "Near Panjim and connecting North Goa, Merces offers strategic urban visibility, with steady local and tourist traffic."
   },
   {
-    "id": "8",
     "locationid": "Merces",
     "district": "North Goa",
     "name": "Merces Highway",
-    "size": "35x10",
+    "size": "35x10 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -132,16 +127,15 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "9",
     "locationid": "Merces",
     "district": "North Goa",
     "name": "Merces Highway",
-    "size": "35x10",
+    "size": "35x10 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -149,16 +143,15 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "10",
     "locationid": "Merces",
     "district": "North Goa",
     "name": "Merces Highway",
-    "size": "35x10",
+    "size": "35x10 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -166,16 +159,15 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "11",
     "locationid": "Merces",
     "district": "North Goa",
     "name": "Merces Highway",
-    "size": "35x10",
+    "size": "35x10 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -183,16 +175,15 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "12",
     "locationid": "Merces",
     "district": "North Goa",
     "name": "Merces Highway",
-    "size": "35x10",
+    "size": "35x10 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -200,16 +191,15 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "13",
     "locationid": "Merces",
     "district": "North Goa",
     "name": "Merces Highway",
-    "size": "35x10",
+    "size": "35x10 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -217,16 +207,32 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "14",
+    "locationid": "Pilerne",
+    "district": "North Goa",
+    "name": "Poles",
+    "size": "4x2.6 Feet",
+    "quantity": "30",
+    "sides": "Double-side",
+    "lit": "Non-Lit",
+    "location": "Pilerne",
+    "link": "",
+    "lease": "true",
+    "media": [
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ],
+    "locationDescription": "A locale suited for niche, refined branding and boutique campaigns."
+  },
+  {
     "locationid": "Gurim",
     "district": "North Goa",
     "name": "Billboard",
-    "size": "60x20",
+    "size": "60x20 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -234,16 +240,16 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "true",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ],
+    "locationDescription": "A key route linking Mapusa to North Goa’s tourist belt — perfect for catching travellers en route to the beaches."
   },
   {
-    "id": "15",
     "locationid": "Bastora",
     "district": "North Goa",
     "name": "Bastora Highway",
-    "size": "40x20",
+    "size": "40x20 Feet",
     "quantity": "1",
     "sides": "Double-side",
     "lit": "Front-Lit",
@@ -251,16 +257,16 @@
     "link": "https://maps.app.goo.gl/6m42sMvPyzYTckMG9",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ],
+    "locationDescription": "Located near Mapusa, it provides strong local and tourist visibility for daily commuters and regional audiences."
   },
   {
-    "id": "16",
     "locationid": "Colvale",
     "district": "North Goa",
     "name": "Billboard",
-    "size": "40x20",
+    "size": "40x20 Feet",
     "quantity": "1",
     "sides": "Double-side",
     "lit": "Front-Lit",
@@ -268,16 +274,16 @@
     "link": "",
     "lease": "true",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ],
+    "locationDescription": "An emerging North Goa route with growing and constant traffic  - a smart spot for Billboard placement."
   },
   {
-    "id": "17",
     "locationid": "Colvale",
     "district": "North Goa",
     "name": "Colvale Highway",
-    "size": "50x20",
+    "size": "50x20 Feet",
     "quantity": "1",
     "sides": "Double-side",
     "lit": "Front-Lit",
@@ -285,16 +291,15 @@
     "link": "https://maps.app.goo.gl/zJGuSuByGJPFaW2p8?g_st=aw",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "18",
     "locationid": "Mopa/Airport",
     "district": "North Goa",
     "name": "Mopa",
-    "size": "100x18",
+    "size": "100x18 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -302,16 +307,16 @@
     "link": "https://maps.app.goo.gl/tbAjpaT8x4Quv43x8",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
+    ],
+    "locationDescription": "Goa’s airport is a high-visibility hotspot , ideal for owning brand impressions from arrival to exit."
   },
   {
-    "id": "19",
     "locationid": "Mopa/Airport",
     "district": "North Goa",
     "name": "Mopa Airport  Exit Toll  ",
-    "size": "60x20",
+    "size": "60x20 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -319,16 +324,15 @@
     "link": "https://maps.app.goo.gl/tbAjpaT8x4Quv43x8",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "20",
     "locationid": "Mopa/Airport",
     "district": "North Goa",
     "name": "Mopa Airport  Exit Toll  ",
-    "size": "80x25",
+    "size": "80x25 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -336,16 +340,15 @@
     "link": "https://maps.app.goo.gl/gswKi6Zm9sgmSxn96",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "21",
     "locationid": "Mopa/Airport",
     "district": "North Goa",
     "name": "Mopa Airport  Exit Toll  ",
-    "size": "80x25",
+    "size": "80x25 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -353,16 +356,15 @@
     "link": "https://maps.app.goo.gl/gswKi6Zm9sgmSxn96",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "22",
     "locationid": "Mopa/Airport",
     "district": "North Goa",
     "name": "Mopa Airport  Exit Toll  ",
-    "size": "60x40",
+    "size": "60x40 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -370,16 +372,15 @@
     "link": "https://maps.app.goo.gl/gswKi6Zm9sgmSxn96",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "23",
     "locationid": "Mopa/Airport",
     "district": "North Goa",
     "name": "Billboard",
-    "size": "80x25",
+    "size": "80x25 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -387,16 +388,15 @@
     "link": "",
     "lease": "true",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "24",
     "locationid": "Mopa/Airport",
     "district": "North Goa",
     "name": "Billboard",
-    "size": "80x25",
+    "size": "80x25 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -404,16 +404,15 @@
     "link": "",
     "lease": "true",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "25",
     "locationid": "Mopa/Airport",
     "district": "North Goa",
     "name": "Billboard",
-    "size": "60x40",
+    "size": "60x40 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -421,16 +420,15 @@
     "link": "",
     "lease": "true",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   },
   {
-    "id": "26",
     "locationid": "Mopa/Airport",
     "district": "North Goa",
     "name": "Billboard",
-    "size": "60x40",
+    "size": "60x40 Feet",
     "quantity": "1",
     "sides": "",
     "lit": "Front-Lit",
@@ -438,8 +436,8 @@
     "link": "",
     "lease": "true",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/CampaignImages/Aggassaim Highway.png",
+      "/public/assets/CampaignImages/Cortalim Highway.png"
     ]
   }
 ]

@@ -14,7 +14,7 @@ function HomeLandingScreen() {
         <div className={styles.landingContent}>
           <h4>Visibility Matters and We Own it in Goa!</h4>
           <p>
-            Aryavrat Marketing offers exclusive billboard spaces at Goa’s most
+            Aryavrat Marketing offers exclusive Billboard spaces at Goa’s most
             high-traffic zones.
           </p>
           <p>

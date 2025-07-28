@@ -74,29 +74,41 @@ function ContactUs() {
           </div>
 
           <div className={styles.contactusContentContainer}>
-            <h3>Have questions, feedback, or need support?</h3>
+            <h3>Ready to make your brand unmissable? Let’s talk visibility!</h3>
             <p>We're just a message away.</p>
 
             <div className={styles.linksContainer}>
               <div className={styles.linkItem}>
                 <IoMdCall className={styles.icon} />
                 <span>Call Us</span>
-                <a href="">+91 9209016102</a>
+                <a href="tel:+919209016102">+91 9209016102</a>
               </div>
               <div className={styles.linkItem}>
                 <CiMail className={styles.icon} />
                 <span>Email Us</span>
-                <a href="">hello@aryavratmarketing.com</a>
+                <a href="mailto:hello@aryavratmarketing.com">
+                  hello@aryavratmarketing.com
+                </a>
               </div>
               <div className={styles.linkItem}>
                 <TiLocation className={styles.icon} />
                 <span>Office Location</span>
-                <a href="#">vasco</a>
+                <a
+                 
+               
+                  rel="noopener noreferrer">
+                  Vasco
+                </a>
               </div>
               <div className={styles.linkItem}>
                 <BsWhatsapp className={styles.icon} />
                 <span>Whatsapp</span>
-                <a href="">+91 9209016102</a>
+                <a
+                  href="https://wa.me/919209016102"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  +91 9209016102
+                </a>
               </div>
             </div>
           </div>

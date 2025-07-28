@@ -22,16 +22,24 @@ function Footer() {
             solutions that show results
           </p>
           <div className={styles.linksContainer}>
-            <a href="">
+            <a
+              href="https://www.instagram.com/aryavrat.marketing?igsh=cHVzM2N6MjcxOHdi"
+              target="_blank">
               <LuInstagram className={styles.icon} />
             </a>
-            <a href="">
-              <TiSocialFacebookCircular className={styles.icon} />
+            <a
+              href="https://www.facebook.com/profile.php?id=61566116916506&mibextid=ZbWKwL"
+              target="_blank">
+              <TiSocialFacebookCircular
+                className={`${styles.icon} ${styles.fbIcon}`}
+              />
             </a>
-            <a href="">
+            <a
+              href="https://www.linkedin.com/company/aryavrat-marketing/"
+              target="_blank">
               <LuLinkedin className={styles.icon} />
             </a>
-            <a href="">
+            <a href="https://wa.me/919209016102" target="_blank">
               <SiWhatsapp className={styles.icon} />
             </a>
           </div>
@@ -62,9 +70,9 @@ function Footer() {
           </Link>
         </div>
         <div className={styles.LinksContainer}>
-          <h5>Our Service</h5>
+          <h5>Our Services</h5>
 
-          <p>BillBoard</p>
+          <p>Billboard</p>
           <p>Display</p>
           <p>Bus Stand</p>
           <p>Poles</p>
@@ -76,11 +84,11 @@ function Footer() {
             <TiLocation className={styles.icon} />
             Vasco
           </a>
-          <a href="">
+          <a href="tel:+919209016102">
             <IoMdCall className={styles.icon} />
             +91 9209016102
           </a>
-          <a href="">
+          <a href="mailto:hello@aryavratmarketing.com">
             <CiMail className={styles.icon} />
             hello@aryavratmarketing.com
           </a>
@@ -90,10 +98,10 @@ function Footer() {
         <span>Aryavrat Marketing. All rights reserved</span>
 
         <div>
-          <Link to={"/"} className={styles.link}>
+          <Link to={"/privacy-policy"} className={styles.link}>
             Privacy Policy
           </Link>
-          <Link to={"/"} className={styles.link}>
+          <Link to={"/terms-of-use"} className={styles.link}>
             Terms of Service
           </Link>
         </div>
