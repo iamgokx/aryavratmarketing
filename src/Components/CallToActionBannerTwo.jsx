@@ -38,24 +38,38 @@ function CallToActionBannerTwo() {
 
         <div className={styles.linksContainerMain}>
           <div className={styles.linksContainer}>
-            <IoMdCall className={styles.icon} />
+            <a href="tel:+919209016102">
+              <IoMdCall className={styles.icon} />
+            </a>
             <div className={styles.linkContent}>
               <span>Call Us</span>
-              <a href="">+91 9209016102</a>
+              <a href="tel:+919209016102">+91 9209016102</a>
             </div>
           </div>
           <div className={styles.linksContainer}>
-            <CiMail className={styles.icon} />
+            <a href="mailto:hello@aryavratmarketing.com" target="_blank">
+              <CiMail className={styles.icon} />
+            </a>
             <div className={styles.linkContent}>
               <span>Email Us</span>
-              <a href="">hello@aryavratmarketing.com</a>
+              <a href="mailto:hello@aryavratmarketing.com" target="_blank">
+                hello@aryavratmarketing.com
+              </a>
             </div>
           </div>
           <div className={styles.linksContainer}>
-            <FaInstagram className={styles.icon} />
+            <a
+              href="https://www.instagram.com/aryavrat.marketing?igsh=cHVzM2N6MjcxOHdi"
+              target="_blank">
+              <FaInstagram className={styles.icon} />
+            </a>
             <div className={styles.linkContent}>
               <span>Follow Us</span>
-              <a href="">@aryavrat.marketing</a>
+              <a
+                href="https://www.instagram.com/aryavrat.marketing?igsh=cHVzM2N6MjcxOHdi"
+                target="_blank">
+                @aryavrat.marketing
+              </a>
             </div>
           </div>
         </div>
