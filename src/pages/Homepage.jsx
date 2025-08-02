@@ -130,9 +130,27 @@ function Homepage() {
     },
   ];
 
+  const scrollWithOffset = (id) => {
+    const el = document.getElementById(id);
+    const yOffset = -200;
+    const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  };
+
+  const [logoDone, setLogoDone] = useState(false);
+
+  
+
+  useEffect(() => {
+    if (logoDone) {
+      AOS.refresh(); 
+    }
+  }, [logoDone]);
+  
   return (
     <>
-      <HomeLandingScreen></HomeLandingScreen>
+      <HomeLandingScreen scrollWithOffset={scrollWithOffset}></HomeLandingScreen>
 
       <section className={styles.homeSection}>
         <div className={styles.homeAboutUsContainer}>
@@ -144,7 +162,7 @@ function Homepage() {
             ))}
           </Slider>
 
-          <div className={styles.homeAboutUsContentContainer}>
+          <div id="getstarted" className={styles.homeAboutUsContentContainer}>
             <h3>
               Goa's No. 1 <b>Premium</b> Out-of-Home (OOH) Advertising Company
             </h3>

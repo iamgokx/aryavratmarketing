@@ -19,7 +19,7 @@ function NavBar() {
   }, []);
 
   return (
-    <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
+    <nav data-aos="fade-down" className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
       <div className={styles.navLogoContainer}>
         <Link to={"/"}>
           {" "}

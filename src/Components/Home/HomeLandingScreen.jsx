@@ -2,16 +2,17 @@ import React from "react";
 import styles from "../../styles/Home/HomeLandingScreen.module.css";
 import homeLoopClip from "/assets/videos/homeLandingScreen.mp4";
 import homeLandingLogo from "/assets/logos/homeLanding.png";
+import homePoster from "/assets/videos/videoPoster.png";
 import { BsWhatsapp } from "react-icons/bs";
-function HomeLandingScreen() {
+function HomeLandingScreen({ scrollWithOffset }) {
   return (
     <div className={styles.homeLandingContainer}>
-      <video muted autoPlay loop>
+      <video muted autoPlay loop poster={homePoster}>
         <source src={homeLoopClip}></source>
       </video>
 
       <div className={styles.homeLandingContentContainer}>
-        <div className={styles.landingContent}>
+        <div data-aos="fade-right" className={styles.landingContent}>
           <h4>Visibility Matters and We Own it in Goa!</h4>
           <p>
             Aryavrat Marketing offers exclusive Billboard spaces at Goa’s most
@@ -22,13 +23,19 @@ function HomeLandingScreen() {
             visibility that sticks.
           </p>
           <div className={styles.callToActionContainer}>
-            <a href="">Get Started</a>
-            <a href="">
+            <a href="#" onClick={() => scrollWithOffset("getstarted")}>
+              Get Started
+            </a>
+            <a href="https://wa.me/919209016102" target="_blank">
               Contact Us <BsWhatsapp className={styles.whatsappIcon} />
             </a>
           </div>
         </div>
-        <img src={homeLandingLogo} alt="aryavrat-marketing-logo" />
+        <img
+          data-aos="fade-left"
+          src={homeLandingLogo}
+          alt="aryavrat-marketing-logo"
+        />
       </div>
     </div>
   );

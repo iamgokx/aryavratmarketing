@@ -3,13 +3,6 @@ import styles from "../styles/PrivacyPolicy.module.css";
 function TermsOfUse() {
   return (
     <div className={styles.container}>
-      <h1>Privacy Policy</h1>
-      <p className={styles.date}>
-        Effective Date: 8 July 2025
-        <br />
-        Last Updated: 8 July 2025
-      </p>
-
       <h1>Terms of Service</h1>
       <p className={styles.date}>
         Effective Date: 8 July 2025

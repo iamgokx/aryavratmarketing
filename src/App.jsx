@@ -35,7 +35,7 @@ function App() {
       <Router>
         <VideoBackground />
 
-        <SiteLoader />
+        {/* <SiteLoader /> */}
         <NavBar></NavBar>
         <ScrollToTop />
         <Routes>
