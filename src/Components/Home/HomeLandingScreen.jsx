@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../../styles/Home/HomeLandingScreen.module.css";
 import homeLoopClip from "/assets/videos/homeLandingScreen.mp4";
 import homeLandingLogo from "/assets/logos/homeLanding.png";
-import homePoster from "/public/assets/videos/loadingBanner.png";
+import homePoster from "/assets/videos/loadingBanner.png";
 import { BsWhatsapp } from "react-icons/bs";
 function HomeLandingScreen({ scrollWithOffset }) {
   return (

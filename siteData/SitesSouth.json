@@ -12,8 +12,8 @@
     "link": "https://maps.app.goo.gl/d5DndcbnLeZbvJys7",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 40x10 Feet/s1.png",
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 40x10 Feet/s2.png"
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 40x10 Feet/s1.png",
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 40x10 Feet/s2.png"
     ],
     "locationDescription": "Goa’s airport offers unmatched first-impression visibility, ideal for high-impact hoardings targeting tourists and locals."
   },
@@ -30,8 +30,8 @@
     "link": "https://maps.app.goo.gl/adXpXePiBtjmUrERA",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 20x10 Feet/s1.png",
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 20x10 Feet/s2.jpg"
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 20x10 Feet/s1.png",
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 20x10 Feet/s2.jpg"
     ]
   },
   {
@@ -47,8 +47,8 @@
     "link": "https://maps.app.goo.gl/adXpXePiBtjmUrERA",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 30x12 Feet/s1.jpg",
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 30x12 Feet/s2.jpg"
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 30x12 Feet/s1.jpg",
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 30x12 Feet/s2.jpg"
     ]
   },
   {
@@ -64,8 +64,8 @@
     "link": "https://maps.app.goo.gl/NUkzPBsx79Lk9Wg9A",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 35x15 Feet/s1.png",
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 35x15 Feet/s2.jpg"
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 35x15 Feet/s1.png",
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 35x15 Feet/s2.jpg"
     ]
   },
   {
@@ -81,8 +81,8 @@
     "link": "https://maps.app.goo.gl/Rxyni2jJVXatrid9A",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 35x20 Feet/s1.png",
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 35x20 Feet/s2.jpg"
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 35x20 Feet/s1.png",
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 35x20 Feet/s2.jpg"
     ]
   },
   {
@@ -98,8 +98,8 @@
     "link": "https://maps.app.goo.gl/FUoA1poeB2LGukj6A",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 5x3 Feet/Screenshot 2025-08-02 100759.png",
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 5x3 Feet/Untitled design (4).jpg"
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 5x3 Feet/Screenshot 2025-08-02 100759.png",
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 5x3 Feet/Untitled design (4).jpg"
     ]
   },
   {
@@ -115,8 +115,7 @@
     "link": "https://maps.app.goo.gl/FUoA1poeB2LGukj6A",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 6x3 Feet/bl.jpg"
-      
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 6x3 Feet/bl.jpg"
     ]
   },
   {
@@ -132,9 +131,9 @@
     "link": "https://maps.app.goo.gl/FUoA1poeB2LGukj6A",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 6x3 Feet/nl.jpg",
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 6x3 Feet/nl (2).jpg",
-      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 6x3 Feet/nl (3).jpg"
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 6x3 Feet/nl.jpg",
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 6x3 Feet/nl (2).jpg",
+      "/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 6x3 Feet/nl (3).jpg"
     ]
   },
   {
@@ -164,9 +163,9 @@
     "link": "https://maps.app.goo.gl/tUqbTbKHNUQPxPPL8",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/MES-Zuarinagar/MES College Bus Stop - 20x4 Feet (Front x 1) - 6x4 Feet (Side x 2)/Screenshot 2025-08-02 101826.png",
-      "/public/assets/siteImgs/South Goa/MES-Zuarinagar/MES College Bus Stop - 20x4 Feet (Front x 1) - 6x4 Feet (Side x 2)/Screenshot_2025-08-10-17-50-03-98_965bbf4d18d205f782c6b8409c5773a4.jpg",
-      "/public/assets/siteImgs/South Goa/MES-Zuarinagar/MES College Bus Stop - 20x4 Feet (Front x 1) - 6x4 Feet (Side x 2)/WhatsApp Image 2025-08-02 at 09.56.52_2f5d8e24.jpg"
+      "/assets/siteImgs/South Goa/MES-Zuarinagar/MES College Bus Stop - 20x4 Feet (Front x 1) - 6x4 Feet (Side x 2)/Screenshot 2025-08-02 101826.png",
+      "/assets/siteImgs/South Goa/MES-Zuarinagar/MES College Bus Stop - 20x4 Feet (Front x 1) - 6x4 Feet (Side x 2)/Screenshot_2025-08-10-17-50-03-98_965bbf4d18d205f782c6b8409c5773a4.jpg",
+      "/assets/siteImgs/South Goa/MES-Zuarinagar/MES College Bus Stop - 20x4 Feet (Front x 1) - 6x4 Feet (Side x 2)/WhatsApp Image 2025-08-02 at 09.56.52_2f5d8e24.jpg"
     ],
     "locationDescription": "A dense hub with steady footfall, perfect for frequent-view ads and consistent community engagement."
   },
@@ -184,8 +183,8 @@
     "link": "https://maps.app.goo.gl/YNeyMwSqnmjeUgxm7",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/MES-Zuarinagar/Dabolim Junction Bus Stop - 35x5 Feet (Front x 1) - 6.5x5 Feet (Side x 2)/Untitled design (5).jpg",
-      "/public/assets/siteImgs/South Goa/MES-Zuarinagar/Dabolim Junction Bus Stop - 35x5 Feet (Front x 1) - 6.5x5 Feet (Side x 2)/WhatsApp Image 2025-08-02 at 09.56.53_6af270e2.jpg"
+      "/assets/siteImgs/South Goa/MES-Zuarinagar/Dabolim Junction Bus Stop - 35x5 Feet (Front x 1) - 6.5x5 Feet (Side x 2)/Untitled design (5).jpg",
+      "/assets/siteImgs/South Goa/MES-Zuarinagar/Dabolim Junction Bus Stop - 35x5 Feet (Front x 1) - 6.5x5 Feet (Side x 2)/WhatsApp Image 2025-08-02 at 09.56.53_6af270e2.jpg"
     ]
   },
   {
@@ -215,8 +214,8 @@
     "link": "https://maps.app.goo.gl/FWBfCR7QP62abUgA7?q=st=aw",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/Verna/Verna Highway Poles - 6x3 Feet/WhatsApp Image 2025-08-02 at 10.37.37_2c147cd3.jpg",
-      "/public/assets/siteImgs/South Goa/Verna/Verna Highway Poles - 6x3 Feet/WhatsApp Image 2025-08-02 at 10.37.38_4773e0b6.jpg"
+      "/assets/siteImgs/South Goa/Verna/Verna Highway Poles - 6x3 Feet/WhatsApp Image 2025-08-02 at 10.37.37_2c147cd3.jpg",
+      "/assets/siteImgs/South Goa/Verna/Verna Highway Poles - 6x3 Feet/WhatsApp Image 2025-08-02 at 10.37.38_4773e0b6.jpg"
     ],
     "locationDescription": "An industrial hotspot with high commuter traffic — great for capturing  audiences travelling across the state"
   },
@@ -233,8 +232,8 @@
     "link": "https://maps.app.goo.gl/gdp1R4xuhNUJcEyM9",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/Verna/Verna Highway Poles - 5x3 Feet/Screenshot 2025-08-02 103326 (1).png",
-      "/public/assets/siteImgs/South Goa/Verna/Verna Highway Poles - 5x3 Feet/Untitled design (6).jpg"
+      "/assets/siteImgs/South Goa/Verna/Verna Highway Poles - 5x3 Feet/Screenshot 2025-08-02 103326 (1).png",
+      "/assets/siteImgs/South Goa/Verna/Verna Highway Poles - 5x3 Feet/Untitled design (6).jpg"
     ]
   },
   {
@@ -250,8 +249,8 @@
     "link": "https://maps.app.goo.gl/26Sf95owoCUjLq46A",
     "lease": "true",
     "media": [
-      "/public/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104229.png",
-      "/public/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104241.png"
+      "/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104229.png",
+      "/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104241.png"
     ],
     "locationDescription": "A scenic, slow-paced local and tourist zone where OOH ads enjoy relaxed, high-dwell-time visibility."
   },
@@ -268,8 +267,8 @@
     "link": "https://maps.app.goo.gl/26Sf95owoCUjLq46A",
     "lease": "true",
     "media": [
-      "/public/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104229.png",
-      "/public/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104241.png"
+      "/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104229.png",
+      "/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104241.png"
     ]
   },
   {
@@ -285,8 +284,8 @@
     "link": "https://maps.app.goo.gl/26Sf95owoCUjLq46A",
     "lease": "true",
     "media": [
-      "/public/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104229.png",
-      "/public/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104241.png"
+      "/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104229.png",
+      "/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104241.png"
     ]
   },
   {
@@ -301,9 +300,7 @@
     "location": "Opp.Umiya Mercado Mall",
     "link": "https://maps.app.goo.gl/NGZrwb8XVGDF4z2p8",
     "lease": "true",
-    "media": [
-      
-    ],
+    "media": [],
     "locationDescription": "A laid-back tourist haven, Benaulim offers premium yet calm brand placements, where hoardings enjoy slow, scenic visibility "
   },
   {
@@ -319,9 +316,9 @@
     "link": "https://maps.app.goo.gl/7qR2xgmz2MCDEu9T7",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/60.png",
-      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/601.png",
-      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/603.png"
+      "/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/60.png",
+      "/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/601.png",
+      "/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/603.png"
     ],
     "locationDescription": "A major junction connecting North and South Goa, ideal for high-recall campaigns and impressions"
   },
@@ -338,10 +335,10 @@
     "link": "https://maps.app.goo.gl/6S2HBPbSiDv8YqXH8",
     "lease": "false",
     "media": [
-      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/Screenshot 2025-08-02 123316.png",
-      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/Screenshot 2025-08-02 123326.png",
-      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/Screenshot 2025-08-02 123419.png",
-      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/Screenshot 2025-08-02 123436.png"
+      "/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/Screenshot 2025-08-02 123316.png",
+      "/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/Screenshot 2025-08-02 123326.png",
+      "/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/Screenshot 2025-08-02 123419.png",
+      "/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/Screenshot 2025-08-02 123436.png"
     ]
   },
   {
