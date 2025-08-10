@@ -12,6 +12,8 @@ import { IoEye } from "react-icons/io5";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { LuUtilityPole } from "react-icons/lu";
+import { GrFormClose } from "react-icons/gr";
+import { TiTick } from "react-icons/ti";
 
 import Slider from "react-slick";
 function Sites() {
@@ -22,15 +24,31 @@ function Sites() {
   const [selectedSite, setSelectedSite] = useState(null);
 
   const groupedSites = [];
-  const seen = new Set();
+const seen = new Set();
 
-  for (const site of sitesData) {
-    const locationId = site.locationid;
-    if (!seen.has(locationId)) {
-      groupedSites.push(site);
-      seen.add(locationId);
-    }
+
+const locationGroups = sitesData.reduce((groups, site) => {
+  if (!groups[site.locationid]) {
+    groups[site.locationid] = [];
   }
+  groups[site.locationid].push(site);
+  return groups;
+}, {});
+
+
+for (const locationId in locationGroups) {
+  const group = locationGroups[locationId];
+
+
+  const allOnLease = group.every(site => site.lease === "true");
+
+  if (!allOnLease) {
+
+    groupedSites.push(group[0]);
+    seen.add(locationId);
+  }
+}
+
 
   const handleCardClick = (locationid) => {
     setSelectedLocationId(locationid);
@@ -158,6 +176,14 @@ function Sites() {
                             <p>
                               <IoEye className={styles.siteIcon} />
                               {selectedSite.sides || ""} {selectedSite.lit}
+                            </p>
+                            <p>
+                              {selectedSite.availability === "Available" ? (
+                                <TiTick className={styles.siteIcon} />
+                              ) : (
+                                <GrFormClose className={styles.siteIcon} />
+                              )}
+                              {selectedSite.availability}
                             </p>
                           </div>
 

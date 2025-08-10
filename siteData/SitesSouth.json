@@ -1,6 +1,7 @@
 [
   {
     "locationid": "Dabolim/Airport",
+    "availability": "Occupied",
     "district": "South Goa",
     "name": "Dabolim Airport Exit",
     "size": "40x10 Feet",
@@ -11,13 +12,14 @@
     "link": "https://maps.app.goo.gl/d5DndcbnLeZbvJys7",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 40x10 Feet/s1.png",
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 40x10 Feet/s2.png"
     ],
     "locationDescription": "Goa’s airport offers unmatched first-impression visibility, ideal for high-impact hoardings targeting tourists and locals."
   },
   {
     "locationid": "Dabolim/Airport",
+    "availability": "Occupied",
     "district": "South Goa",
     "name": "Dabolim Airport Exit",
     "size": "20x10 Feet",
@@ -28,12 +30,13 @@
     "link": "https://maps.app.goo.gl/adXpXePiBtjmUrERA",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 20x10 Feet/s1.png",
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 20x10 Feet/s2.jpg"
     ]
   },
   {
     "locationid": "Dabolim/Airport",
+    "availability": "Occupied",
     "district": "South Goa",
     "name": "Dabolim Airport Exit",
     "size": "30x12 Feet",
@@ -44,12 +47,13 @@
     "link": "https://maps.app.goo.gl/adXpXePiBtjmUrERA",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 30x12 Feet/s1.jpg",
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 30x12 Feet/s2.jpg"
     ]
   },
   {
     "locationid": "Dabolim/Airport",
+    "availability": "Available",
     "district": "South Goa",
     "name": "Dabolim Airport Exit",
     "size": "35x15 Feet",
@@ -60,12 +64,13 @@
     "link": "https://maps.app.goo.gl/NUkzPBsx79Lk9Wg9A",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 35x15 Feet/s1.png",
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 35x15 Feet/s2.jpg"
     ]
   },
   {
     "locationid": "Dabolim/Airport",
+    "availability": "Available",
     "district": "South Goa",
     "name": "Dabolim Airport Exit",
     "size": "35x20 Feet",
@@ -76,12 +81,13 @@
     "link": "https://maps.app.goo.gl/Rxyni2jJVXatrid9A",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 35x20 Feet/s1.png",
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Exit - 35x20 Feet/s2.jpg"
     ]
   },
   {
     "locationid": "Dabolim/Airport",
+    "availability": "Occupied",
     "district": "South Goa",
     "name": "Dabolim Airport Poles",
     "size": "5x3 Feet",
@@ -92,12 +98,13 @@
     "link": "https://maps.app.goo.gl/FUoA1poeB2LGukj6A",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 5x3 Feet/Screenshot 2025-08-02 100759.png",
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 5x3 Feet/Untitled design (4).jpg"
     ]
   },
   {
     "locationid": "Dabolim/Airport",
+    "availability": "Occupied",
     "district": "South Goa",
     "name": "Dabolim Airport Poles",
     "size": "6x3 Feet",
@@ -108,12 +115,13 @@
     "link": "https://maps.app.goo.gl/FUoA1poeB2LGukj6A",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 6x3 Feet/bl.jpg"
+      
     ]
   },
   {
     "locationid": "Dabolim/Airport",
+    "availability": "Occupied",
     "district": "South Goa",
     "name": "Dabolim Airport Poles",
     "size": "6x3 Feet",
@@ -124,12 +132,14 @@
     "link": "https://maps.app.goo.gl/FUoA1poeB2LGukj6A",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 6x3 Feet/nl.jpg",
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 6x3 Feet/nl (2).jpg",
+      "/public/assets/siteImgs/South Goa/Dabolim-Airport/Dabolim Airport Poles - 6x3 Feet/nl (3).jpg"
     ]
   },
   {
     "locationid": "Dabolim/Airport",
+    "availability": "Occupied",
     "district": "South Goa",
     "name": "Electrical poles (Vinsan)",
     "size": "5x2.6 Feet",
@@ -139,13 +149,11 @@
     "location": "Airport to Chicalim Road",
     "link": "https://maps.app.goo.gl/kLYdVZXrJrwREFkBu9",
     "lease": "true",
-    "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+    "media": []
   },
   {
     "locationid": "MES/Zuarinagar",
+    "availability": "Occupied",
     "district": "South Goa",
     "name": "MES College Bus Stop",
     "size": "20x4 Feet (Front x 1) / 6x4 Feet (Side x 2)",
@@ -156,14 +164,16 @@
     "link": "https://maps.app.goo.gl/tUqbTbKHNUQPxPPL8",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/MES-Zuarinagar/MES College Bus Stop - 20x4 Feet (Front x 1) - 6x4 Feet (Side x 2)/Screenshot 2025-08-02 101826.png",
+      "/public/assets/siteImgs/South Goa/MES-Zuarinagar/MES College Bus Stop - 20x4 Feet (Front x 1) - 6x4 Feet (Side x 2)/Screenshot_2025-08-10-17-50-03-98_965bbf4d18d205f782c6b8409c5773a4.jpg",
+      "/public/assets/siteImgs/South Goa/MES-Zuarinagar/MES College Bus Stop - 20x4 Feet (Front x 1) - 6x4 Feet (Side x 2)/WhatsApp Image 2025-08-02 at 09.56.52_2f5d8e24.jpg"
     ],
     "locationDescription": "A dense hub with steady footfall, perfect for frequent-view ads and consistent community engagement."
   },
 
   {
     "locationid": "MES/Zuarinagar",
+    "availability": "Available",
     "district": "South Goa",
     "name": "Dabolim Junction Bus Stop",
     "size": "35x5 Feet (Front x 1) / 6.5x5 Feet (Side x 2)",
@@ -174,12 +184,13 @@
     "link": "https://maps.app.goo.gl/YNeyMwSqnmjeUgxm7",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/MES-Zuarinagar/Dabolim Junction Bus Stop - 35x5 Feet (Front x 1) - 6.5x5 Feet (Side x 2)/Untitled design (5).jpg",
+      "/public/assets/siteImgs/South Goa/MES-Zuarinagar/Dabolim Junction Bus Stop - 35x5 Feet (Front x 1) - 6.5x5 Feet (Side x 2)/WhatsApp Image 2025-08-02 at 09.56.53_6af270e2.jpg"
     ]
   },
   {
     "locationid": "MES/Zuarinagar",
+    "availability": "Available",
     "district": "South Goa",
     "name": "Billboard (adcity)",
     "size": "40x20 Feet",
@@ -189,14 +200,12 @@
     "location": "Near 13 Studio",
     "link": "https://maps.app.goo.gl/Fgwyb16SmWiDFyhy7",
     "lease": "true",
-    "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+    "media": []
   },
   {
     "district": "South Goa",
     "locationid": "Verna",
+    "availability": "Available",
     "name": "Verna Highway Poles",
     "size": "6x3 Feet",
     "quantity": "18",
@@ -206,14 +215,15 @@
     "link": "https://maps.app.goo.gl/FWBfCR7QP62abUgA7?q=st=aw",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Verna/Verna Highway Poles - 6x3 Feet/WhatsApp Image 2025-08-02 at 10.37.37_2c147cd3.jpg",
+      "/public/assets/siteImgs/South Goa/Verna/Verna Highway Poles - 6x3 Feet/WhatsApp Image 2025-08-02 at 10.37.38_4773e0b6.jpg"
     ],
     "locationDescription": "An industrial hotspot with high commuter traffic — great for capturing  audiences travelling across the state"
   },
   {
     "district": "South Goa",
     "locationid": "Verna",
+    "availability": "Occupied",
     "name": "Verna Highway Poles",
     "size": "5x3 Feet",
     "quantity": "7",
@@ -223,13 +233,14 @@
     "link": "https://maps.app.goo.gl/gdp1R4xuhNUJcEyM9",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Verna/Verna Highway Poles - 5x3 Feet/Screenshot 2025-08-02 103326 (1).png",
+      "/public/assets/siteImgs/South Goa/Verna/Verna Highway Poles - 5x3 Feet/Untitled design (6).jpg"
     ]
   },
   {
     "district": "South Goa",
     "locationid": "Majorda",
+    "availability": "Occupied",
     "name": "Electrical Poles (Vinsan) ",
     "size": "4x2 Feet",
     "quantity": "52",
@@ -239,14 +250,15 @@
     "link": "https://maps.app.goo.gl/26Sf95owoCUjLq46A",
     "lease": "true",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104229.png",
+      "/public/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104241.png"
     ],
     "locationDescription": "A scenic, slow-paced local and tourist zone where OOH ads enjoy relaxed, high-dwell-time visibility."
   },
   {
     "district": "South Goa",
     "locationid": "Majorda",
+    "availability": "Occupied",
     "name": "Electrical Poles (Vinsan)",
     "size": "4x2 Feet",
     "quantity": "14",
@@ -256,13 +268,14 @@
     "link": "https://maps.app.goo.gl/26Sf95owoCUjLq46A",
     "lease": "true",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104229.png",
+      "/public/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104241.png"
     ]
   },
   {
     "district": "South Goa",
     "locationid": "Majorda",
+    "availability": "Occupied",
     "name": "Electrical Poles (Vinsan)",
     "size": "4x2 Feet",
     "quantity": "25",
@@ -272,13 +285,14 @@
     "link": "https://maps.app.goo.gl/26Sf95owoCUjLq46A",
     "lease": "true",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104229.png",
+      "/public/assets/siteImgs/South Goa/Majorda/Majorda Cansaulim Road - 4x2 Feet/Screenshot 2025-08-02 104241.png"
     ]
   },
   {
     "district": "South Goa",
     "locationid": "Benaulim",
+    "availability": "Occupied",
     "name": "Electrical Poles (Vinsan)",
     "size": "4x2.6 Feet",
     "quantity": "6",
@@ -288,14 +302,14 @@
     "link": "https://maps.app.goo.gl/NGZrwb8XVGDF4z2p8",
     "lease": "true",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      
     ],
     "locationDescription": "A laid-back tourist haven, Benaulim offers premium yet calm brand placements, where hoardings enjoy slow, scenic visibility "
   },
   {
     "district": "South Goa",
     "locationid": "Cortalim",
+    "availability": "Occupied",
     "name": "Cortalim Highway Poles",
     "size": "5x3 Feet",
     "quantity": "60",
@@ -305,14 +319,16 @@
     "link": "https://maps.app.goo.gl/7qR2xgmz2MCDEu9T7",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/60.png",
+      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/601.png",
+      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/603.png"
     ],
     "locationDescription": "A major junction connecting North and South Goa, ideal for high-recall campaigns and impressions"
   },
   {
     "district": "South Goa",
     "locationid": "Cortalim",
+    "availability": "Occupied",
     "name": "Cortalim Highway Poles",
     "size": "5x3 Feet",
     "quantity": "25",
@@ -322,13 +338,16 @@
     "link": "https://maps.app.goo.gl/6S2HBPbSiDv8YqXH8",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/Screenshot 2025-08-02 123316.png",
+      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/Screenshot 2025-08-02 123326.png",
+      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/Screenshot 2025-08-02 123419.png",
+      "/public/assets/siteImgs/South Goa/Cortalim/Cortalim Highway Poles - 5x3 Feet/Screenshot 2025-08-02 123436.png"
     ]
   },
   {
     "district": "South Goa",
     "locationid": "Cortalim",
+    "availability": "Occupied",
     "name": "Poles",
     "size": "4x2.5 Feet",
     "quantity": "25",
@@ -337,9 +356,6 @@
     "location": "Cortalim Highway going towards Panjim/Mopa/North Goa and Vasco/Margao/South Goa",
     "link": "https://maps.app.goo.gl/6S2HBPbSiDv8YqXH8",
     "lease": "true",
-    "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+    "media": []
   }
 ]
