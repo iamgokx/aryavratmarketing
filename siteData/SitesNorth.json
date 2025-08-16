@@ -1,6 +1,7 @@
 [
   {
     "locationid": "Agassaim",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Agassaim Cortalim Bridge",
     "size": "35x18 Feet",
@@ -11,13 +12,16 @@
     "link": "https://maps.app.goo.gl/qNDg9pv4w41mh88MA",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Cortalim Bridge - 35x18 Feet/Screenshot 2025-08-02 123306.png",
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Cortalim Bridge - 35x18 Feet/Screenshot 2025-08-02 123445.png",
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Cortalim Bridge - 35x18 Feet/Screenshot 2025-08-02 123500.png",
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Cortalim Bridge - 35x18 Feet/Screenshot 2025-08-02 123959.png"
     ],
     "locationDescription": "Heavy highway traffic makes this a strong location for bold, fast-impact Billboards on the go."
   },
   {
     "locationid": "Agassaim",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Agassaim Cortalim Bridge Exit/Entry",
     "size": "35x20 Feet",
@@ -28,12 +32,15 @@
     "link": "https://maps.app.goo.gl/kMfqPUX36A9eW9xA8",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Cortalim Bridge Exit-Entry - 35x20 Feet/Screenshot 2025-08-02 123243.png",
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Cortalim Bridge Exit-Entry - 35x20 Feet/Screenshot 2025-08-02 123256.png",
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Cortalim Bridge Exit-Entry - 35x20 Feet/Screenshot 2025-08-02 123508.png",
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Cortalim Bridge Exit-Entry - 35x20 Feet/Screenshot 2025-08-02 123519.png"
     ]
   },
   {
     "locationid": "Agassaim",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Agassaim Highway",
     "size": "6x3 Feet",
@@ -44,12 +51,15 @@
     "link": "https://maps.app.goo.gl/XA2wfF4ycfl3kRqKu8",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Highway Poles - 6x3 Feet/Screenshot 2025-08-02 123223.png",
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Highway Poles - 6x3 Feet/Screenshot 2025-08-02 123234.png",
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Highway Poles - 6x3 Feet/Screenshot 2025-08-02 123530.png",
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Highway Poles - 6x3 Feet/Screenshot 2025-08-02 123536.png"
     ]
   },
   {
     "locationid": "Agassaim",
+    "availability": "Available",
     "district": "North Goa",
     "name": "Agassaim Highway",
     "size": "65x20 Feet",
@@ -60,12 +70,14 @@
     "link": "https://maps.app.goo.gl/7U4iRJSvt8YwQrv36",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Highway - 65x20 Feet/Screenshot 2025-08-02 123207.png",
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Highway - 65x20 Feet/Screenshot 2025-08-02 124026.png",
+      "/assets/siteImgs/North Goa/Aggassaim/Agassaim Highway - 65x20 Feet/WhatsApp Image 2025-08-02 at 12.38.17_b044f402.jpg"
     ]
   },
   {
     "locationid": "Goa Velha",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Goa Velha Highway",
     "size": "55x18 Feet",
@@ -76,13 +88,15 @@
     "link": "https://maps.app.goo.gl/Dz5AUA9FyuB2CdEH7",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Goa Velha/Goa Velha Highway - 55x18 Feet/Screenshot 2025-08-02 123147.png",
+      "/assets/siteImgs/North Goa/Goa Velha/Goa Velha Highway - 55x18 Feet/Screenshot 2025-08-02 123156.png",
+      "/assets/siteImgs/North Goa/Goa Velha/Goa Velha Highway - 55x18 Feet/Screenshot 2025-08-02 123554.png"
     ],
     "locationDescription": "A busy connector stretch with long visibility zones - perfect for campaigns"
   },
   {
     "locationid": "Goa Velha",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Goa Velha Highway",
     "size": "55x20 Feet",
@@ -93,13 +107,16 @@
     "link": "https://maps.app.goo.gl/GfVpSvrqNQUrsazT6",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Goa Velha/Goa Velha Highway - 55x20 Feet/Screenshot 2025-08-02 124339.png",
+      "/assets/siteImgs/North Goa/Goa Velha/Goa Velha Highway - 55x20 Feet/Screenshot 2025-08-02 124400.png",
+      "/assets/siteImgs/North Goa/Goa Velha/Goa Velha Highway - 55x20 Feet/Screenshot 2025-08-02 124417.png",
+      "/assets/siteImgs/North Goa/Goa Velha/Goa Velha Highway - 55x20 Feet/Screenshot 2025-08-02 124739.png"
     ]
   },
 
   {
     "locationid": "Merces",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Merces Highway Poles",
     "size": "6x3 Feet",
@@ -110,13 +127,14 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Merces/Merces Highway Poles - 6x3 Feet/Screenshot 2025-08-02 123130.png",
+      "/assets/siteImgs/North Goa/Merces/Merces Highway Poles - 6x3 Feet/Screenshot 2025-08-02 123136.png"
     ],
     "locationDescription": "Near Panjim and connecting North Goa, Merces offers strategic urban visibility, with steady local and tourist traffic."
   },
   {
     "locationid": "Merces",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Merces Highway",
     "size": "35x10 Feet",
@@ -127,12 +145,12 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Merces/Merces Highway Poles - 35x10 Feet/Screenshot 2025-08-02 123108.png"
     ]
   },
   {
     "locationid": "Merces",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Merces Highway",
     "size": "35x10 Feet",
@@ -143,12 +161,12 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Merces/Merces Highway Poles - 35x10 Feet/Screenshot 2025-08-02 123115.png"
     ]
   },
   {
     "locationid": "Merces",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Merces Highway",
     "size": "35x10 Feet",
@@ -159,12 +177,12 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Merces/Merces Highway Poles - 35x10 Feet/Screenshot 2025-08-02 123123.png"
     ]
   },
   {
     "locationid": "Merces",
+    "availability": "Available",
     "district": "North Goa",
     "name": "Merces Highway",
     "size": "35x10 Feet",
@@ -175,12 +193,12 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Merces/Merces Highway Poles - 35x10 Feet/WhatsApp Image 2025-08-02 at 09.56.47_a673d696.jpg"
     ]
   },
   {
     "locationid": "Merces",
+    "availability": "Available",
     "district": "North Goa",
     "name": "Merces Highway",
     "size": "35x10 Feet",
@@ -191,12 +209,12 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Merces/Merces Highway Poles - 35x10 Feet/WhatsApp Image 2025-08-02 at 09.56.47_b1bde9e9.jpg"
     ]
   },
   {
     "locationid": "Merces",
+    "availability": "Available",
     "district": "North Goa",
     "name": "Merces Highway",
     "size": "35x10 Feet",
@@ -207,12 +225,12 @@
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Merces/Merces Highway Poles - 35x10 Feet/WhatsApp Image 2025-08-02 at 09.56.48_c73c0522.jpg"
     ]
   },
   {
     "locationid": "Pilerne",
+    "availability": "Available",
     "district": "North Goa",
     "name": "Poles",
     "size": "4x2.6 Feet",
@@ -222,14 +240,12 @@
     "location": "Pilerne",
     "link": "",
     "lease": "true",
-    "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ],
+    "media": [],
     "locationDescription": "A locale suited for niche, refined branding and boutique campaigns."
   },
   {
     "locationid": "Gurim",
+    "availability": "Available",
     "district": "North Goa",
     "name": "Billboard",
     "size": "60x20 Feet",
@@ -239,14 +255,12 @@
     "location": "Gurim",
     "link": "https://maps.app.goo.gl/dxeZZDhPCvr8kVs5",
     "lease": "true",
-    "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ],
+    "media": [],
     "locationDescription": "A key route linking Mapusa to North Goa’s tourist belt — perfect for catching travellers en route to the beaches."
   },
   {
     "locationid": "Bastora",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Bastora Highway",
     "size": "40x20 Feet",
@@ -257,30 +271,15 @@
     "link": "https://maps.app.goo.gl/6m42sMvPyzYTckMG9",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Bastora/Bastora Highway - 40x20 Feet/Screenshot 2025-08-02 110046.png",
+      "/assets/siteImgs/North Goa/Bastora/Bastora Highway - 40x20 Feet/Screenshot 2025-08-02 110109.png",
+      "/assets/siteImgs/North Goa/Bastora/Bastora Highway - 40x20 Feet/Screenshot 2025-08-02 122824.png"
     ],
     "locationDescription": "Located near Mapusa, it provides strong local and tourist visibility for daily commuters and regional audiences."
   },
   {
     "locationid": "Colvale",
-    "district": "North Goa",
-    "name": "Billboard",
-    "size": "40x20 Feet",
-    "quantity": "1",
-    "sides": "Double-side",
-    "lit": "Front-Lit",
-    "location": "Colvale",
-    "link": "",
-    "lease": "true",
-    "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ],
-    "locationDescription": "An emerging North Goa route with growing and constant traffic  - a smart spot for Billboard placement."
-  },
-  {
-    "locationid": "Colvale",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Colvale Highway",
     "size": "50x20 Feet",
@@ -291,12 +290,32 @@
     "link": "https://maps.app.goo.gl/zJGuSuByGJPFaW2p8?g_st=aw",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+      "/assets/siteImgs/North Goa/Colvale/Colvale Highway - 50x20 Feet/Screenshot 2025-08-02 122331.png",
+      "/assets/siteImgs/North Goa/Colvale/Colvale Highway - 50x20 Feet/Screenshot 2025-08-02 122346.png",
+      "/assets/siteImgs/North Goa/Colvale/Colvale Highway - 50x20 Feet/Screenshot 2025-08-02 122459.png",
+      "/assets/siteImgs/North Goa/Colvale/Colvale Highway - 50x20 Feet/Screenshot 2025-08-02 122505.png",
+      "/assets/siteImgs/North Goa/Colvale/Colvale Highway - 50x20 Feet/Screenshot 2025-08-02 122534.png"
+    ],
+    "locationDescription": "An emerging North Goa route with growing and constant traffic  - a smart spot for Billboard placement."
   },
   {
+    "locationid": "Colvale",
+    "availability": "Occupied",
+    "district": "North Goa",
+    "name": "Billboard",
+    "size": "40x20 Feet",
+    "quantity": "1",
+    "sides": "Double-side",
+    "lit": "Front-Lit",
+    "location": "Colvale",
+    "link": "",
+    "lease": "true",
+    "media": []
+  },
+
+  {
     "locationid": "Mopa/Airport",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Mopa",
     "size": "100x18 Feet",
@@ -307,13 +326,14 @@
     "link": "https://maps.app.goo.gl/tbAjpaT8x4Quv43x8",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa - 100x18 Feet/Screenshot 2025-08-02 105814.png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa - 100x18 Feet/Screenshot 2025-08-02 105841.png"
     ],
     "locationDescription": "Goa’s airport is a high-visibility hotspot , ideal for owning brand impressions from arrival to exit."
   },
   {
     "locationid": "Mopa/Airport",
+    "availability": "Available",
     "district": "North Goa",
     "name": "Mopa Airport  Exit Toll  ",
     "size": "60x20 Feet",
@@ -323,13 +343,11 @@
     "location": "Mopa airport exit, going towards Panjim/North Goa and Vasco/Margao/South Goa",
     "link": "https://maps.app.goo.gl/tbAjpaT8x4Quv43x8",
     "lease": "false",
-    "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+    "media": []
   },
   {
     "locationid": "Mopa/Airport",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Mopa Airport  Exit Toll  ",
     "size": "80x25 Feet",
@@ -340,12 +358,17 @@
     "link": "https://maps.app.goo.gl/gswKi6Zm9sgmSxn96",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 80x25 Feet/Screenshot 2025-08-02 105917.png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 80x25 Feet/Screenshot 2025-08-02 105933(1).png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 80x25 Feet/Screenshot 2025-08-02 105933.png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 80x25 Feet/Screenshot 2025-08-02 105943.png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 80x25 Feet/Screenshot 2025-08-02 110010.png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 80x25 Feet/Screenshot 2025-08-02 110030.png"
     ]
   },
   {
     "locationid": "Mopa/Airport",
+    "availability": "Occupied",
     "district": "North Goa",
     "name": "Mopa Airport  Exit Toll  ",
     "size": "80x25 Feet",
@@ -356,12 +379,17 @@
     "link": "https://maps.app.goo.gl/gswKi6Zm9sgmSxn96",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 80x25 Feet/Screenshot 2025-08-02 105917.png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 80x25 Feet/Screenshot 2025-08-02 105933(1).png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 80x25 Feet/Screenshot 2025-08-02 105933.png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 80x25 Feet/Screenshot 2025-08-02 105943.png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 80x25 Feet/Screenshot 2025-08-02 110010.png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 80x25 Feet/Screenshot 2025-08-02 110030.png"
     ]
   },
   {
     "locationid": "Mopa/Airport",
+    "availability": "Available",
     "district": "North Goa",
     "name": "Mopa Airport  Exit Toll  ",
     "size": "60x40 Feet",
@@ -372,12 +400,15 @@
     "link": "https://maps.app.goo.gl/gswKi6Zm9sgmSxn96",
     "lease": "false",
     "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 60x40 Feet/Screenshot 2025-08-02 110646.png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 60x40 Feet/Screenshot 2025-08-02 122012.png",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 60x40 Feet/Screenshot_2025-08-10-18-49-16-61_6012fa4d4ddec268fc5c7112cbb265e7.jpg",
+      "/assets/siteImgs/North Goa/Mopa Airport/Mopa Airport Exit Toll - 60x40 Feet/WhatsApp Image 2025-08-02 at 12.19.27_14e0a9d8.jpg"
     ]
   },
   {
     "locationid": "Mopa/Airport",
+    "availability": "Available",
     "district": "North Goa",
     "name": "Billboard",
     "size": "80x25 Feet",
@@ -387,13 +418,11 @@
     "location": "",
     "link": "",
     "lease": "true",
-    "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+    "media": []
   },
   {
     "locationid": "Mopa/Airport",
+    "availability": "Available",
     "district": "North Goa",
     "name": "Billboard",
     "size": "80x25 Feet",
@@ -403,13 +432,11 @@
     "location": "",
     "link": "",
     "lease": "true",
-    "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+    "media": []
   },
   {
     "locationid": "Mopa/Airport",
+    "availability": "Available",
     "district": "North Goa",
     "name": "Billboard",
     "size": "60x40 Feet",
@@ -419,13 +446,11 @@
     "location": "",
     "link": "",
     "lease": "true",
-    "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+    "media": []
   },
   {
     "locationid": "Mopa/Airport",
+    "availability": "Available",
     "district": "North Goa",
     "name": "Billboard",
     "size": "60x40 Feet",
@@ -435,9 +460,6 @@
     "location": "",
     "link": "",
     "lease": "true",
-    "media": [
-      "/assets/CampaignImages/Aggassaim Highway.png",
-      "/assets/CampaignImages/Cortalim Highway.png"
-    ]
+    "media": []
   }
 ]

@@ -24,31 +24,26 @@ function Sites() {
   const [selectedSite, setSelectedSite] = useState(null);
 
   const groupedSites = [];
-const seen = new Set();
+  const seen = new Set();
 
+  const locationGroups = sitesData.reduce((groups, site) => {
+    if (!groups[site.locationid]) {
+      groups[site.locationid] = [];
+    }
+    groups[site.locationid].push(site);
+    return groups;
+  }, {});
 
-const locationGroups = sitesData.reduce((groups, site) => {
-  if (!groups[site.locationid]) {
-    groups[site.locationid] = [];
+  for (const locationId in locationGroups) {
+    const group = locationGroups[locationId];
+
+    const allOnLease = group.every((site) => site.lease === "true");
+
+    if (!allOnLease) {
+      groupedSites.push(group[0]);
+      seen.add(locationId);
+    }
   }
-  groups[site.locationid].push(site);
-  return groups;
-}, {});
-
-
-for (const locationId in locationGroups) {
-  const group = locationGroups[locationId];
-
-
-  const allOnLease = group.every(site => site.lease === "true");
-
-  if (!allOnLease) {
-
-    groupedSites.push(group[0]);
-    seen.add(locationId);
-  }
-}
-
 
   const handleCardClick = (locationid) => {
     setSelectedLocationId(locationid);
@@ -149,13 +144,20 @@ for (const locationId in locationGroups) {
                       {selectedSite.lease == "false" && (
                         <>
                           <div className={styles.sliderWrapper}>
-                            <Slider {...settings} className={styles.slider}>
-                              {selectedSite.media.map((img, index) => (
-                                <div key={`${index} ${img}`}>
-                                  <img src={img} alt={`Slide ${index}`} />
-                                </div>
-                              ))}
-                            </Slider>
+                            {selectedSite.media &&
+                            selectedSite.media.length > 0 ? (
+                              <Slider {...settings} className={styles.slider}>
+                                {selectedSite.media.map((img, index) => (
+                                  <div key={`${index} ${img}`}>
+                                    <img src={img} alt={`Slide ${index}`} />
+                                  </div>
+                                ))}
+                              </Slider>
+                            ) : (
+                              <div className={styles.noImgMsg}>
+                                No images available right now
+                              </div>
+                            )}
                           </div>
 
                           <div className={styles.selectedSiteContentContainer}>
