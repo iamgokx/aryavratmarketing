@@ -134,23 +134,22 @@ function Homepage() {
     const el = document.getElementById(id);
     const yOffset = -200;
     const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
-  
-    window.scrollTo({ top: y, behavior: 'smooth' });
+
+    window.scrollTo({ top: y, behavior: "smooth" });
   };
 
   const [logoDone, setLogoDone] = useState(false);
 
-  
-
   useEffect(() => {
     if (logoDone) {
-      AOS.refresh(); 
+      AOS.refresh();
     }
   }, [logoDone]);
-  
+
   return (
     <>
-      <HomeLandingScreen scrollWithOffset={scrollWithOffset}></HomeLandingScreen>
+      <HomeLandingScreen
+        scrollWithOffset={scrollWithOffset}></HomeLandingScreen>
 
       <section className={styles.homeSection}>
         <div className={styles.homeAboutUsContainer}>
@@ -224,7 +223,7 @@ function Homepage() {
             <div className={styles.featuresLeftContainer}>
               {features.map((feature, index) => (
                 <div
-                  className={styles.featuresContainer}
+                  className={styles.featuresContainerContent}
                   key={`${index} ${feature}`}>
                   <img src={tickIcon} alt="" />
                   <div className={styles.featureContentContainer}>
@@ -267,15 +266,17 @@ function Homepage() {
           </h2>
         </div>
       </section>
-      <div className={styles.track}>
-        {clients.map((img, index) => (
-          <img
-            key={`${index} ${img}`}
-            src={img}
-            alt={`Client ${index + 1}`}
-            className={styles.item}
-          />
-        ))}
+      <div className={styles.carouselWrapper}>
+        <div className={styles.track}>
+          {clients.concat(clients).map((img, index) => (
+            <img
+              key={`${index}-${img}`}
+              src={img}
+              alt={`Client ${index + 1}`}
+              className={styles.item}
+            />
+          ))}
+        </div>
       </div>
 
       <section className={styles.homeSection}>

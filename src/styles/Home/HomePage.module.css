@@ -19,18 +19,14 @@
   gap: 2rem;
 }
 
-
-
 .slider {
   width: 500px;
   height: 300px;
-
 }
 
 .slider div {
   height: 300px;
   width: 100%;
- 
 }
 
 .slider div img {
@@ -38,7 +34,6 @@
   width: 100%;
   object-fit: cover;
   object-position: center;
-
 }
 
 .homeAboutUsContentContainer {
@@ -48,8 +43,6 @@
   align-items: flex-start;
   justify-content: space-evenly;
   gap: 1rem;
-
-  
 }
 
 .homeAboutUsContentContainer h3 {
@@ -145,12 +138,13 @@
   font-size: 1.3rem;
 }
 
-.featuresContainer {
+.featuresContainerContent {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   margin-top: 3rem;
   width: 100%;
+  gap: 10px;
 }
 
 .featuresContainer .slider {
@@ -170,12 +164,12 @@
   gap: 10px;
 }
 
-.featureContentContainer h4{
+.featureContentContainer h4 {
   font-family: var(--heading-font);
   font-size: 1.5rem;
 }
 
-.featureContentContainer p{
+.featureContentContainer p {
   font-family: var(--subheading-font);
 }
 
@@ -201,37 +195,43 @@
   white-space: nowrap;
   margin-top: 3rem;
 }
+.carouselWrapper {
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+}
 
 .track {
   display: flex;
+  gap: 2rem;
   animation: scroll 20s linear infinite;
-
+  width: max-content;
 }
 
 .item {
-  height: 90px;
-  margin-right: 50px;
+  height: 70px;
   object-fit: contain;
 }
 
-.carouseHeading{
-  font-size: 2rem;
-  color:white;
+.carouseHeading {
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  color: white;
   font-family: var(--heading-font);
   text-align: center;
   margin: 3rem 0rem;
 }
 
-.carouseHeading span{
+.carouseHeading span {
   color: var(--primary-color);
 }
 
+/* Keyframes */
 @keyframes scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-10%);
   }
 }
 
@@ -263,7 +263,6 @@
   padding: 1rem;
 
   background-color: var(--secondary-color);
-
 }
 
 .testimonialsContainer {
@@ -290,7 +289,7 @@
   margin-bottom: 1rem;
 }
 
-.viewAllBtnContainer{
+.viewAllBtnContainer {
   height: 100px;
   display: flex;
   align-items: center;
@@ -317,6 +316,131 @@
   border: 2px solid white;
 }
 
-.arrowIcon{
-  font-size: 1,3rem;
+.arrowIcon {
+  font-size: 1, 3rem;
+}
+
+@media (max-width: 1300px) {
+  .homeSection {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .homeAboutUsContainer {
+    padding: 2rem;
+    align-items: center;
+    transform: translateY(-40px);
+  }
+
+  .stat {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1030px) {
+  .homeAboutUsContainer {
+    flex-direction: column;
+  }
+  .homeAboutUsContentContainer {
+    align-items: center;
+  }
+
+  .homeAboutUsContainer h3 {
+    text-align: center;
+  }
+
+  .homeAboutUsContentContainer p {
+    text-align: center;
+  }
+
+  .statsContainer .stat:nth-child(2) img {
+    transform: translateX(0%);
+  }
+
+  .featuresContainer {
+    flex-direction: column-reverse;
+  }
+  
+
+  .featuresContainer .slider {
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+
+
+  .item {
+    height: 60px;
+  }
+
+  .viewMoreContainer {
+    height: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  .slider {
+    width: 400px;
+    height: 200px;
+  }
+
+  .slider div {
+    height: 100%;
+    width: 400px;
+    background-color: red;
+  }
+
+  .slider div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .item {
+    height: 50px;
+  }
+
+  .featuresContainerContent img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    
+  }
+}
+
+@media (max-width: 580px) {
+  .slider {
+    width: 300px;
+    height: 200px;
+  }
+
+  .slider div {
+    height: 100%;
+    width: 300px;
+    background-color: red;
+  }
+
+  .slider div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .item {
+    height: 50px;
+  }
+
+  .statsContainer {
+   flex-direction: column;
+   gap: 2rem;
+  }
+  .stat{
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .item {
+    height: 40px;
+  }
 }

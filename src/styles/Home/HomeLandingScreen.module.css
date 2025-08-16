@@ -71,18 +71,19 @@
   border-radius: 20px;
   font-weight: 600;
   transition: 0.5s;
-  border:2px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   width: 200px;
   text-align: center;
 }
 .callToActionContainer a:hover {
- transition: 0.5s;
-  border:2px solid var(--primary-color);
-background-color: transparent;
+  transition: 0.5s;
+  border: 2px solid var(--primary-color);
+  background-color: transparent;
 }
 
 .callToActionContainer a:nth-child(2) {
   background-color: white;
+  
   color: black;
   display: flex;
   align-items: center;
@@ -91,15 +92,75 @@ background-color: transparent;
   transition: 0.5s;
   border: 2px solid white;
 }
-.callToActionContainer a:nth-child(2):hover{
+.callToActionContainer a:nth-child(2):hover {
   background-color: transparent;
   color: white;
   transition: 0.5s;
 }
 
-
-
 .whatsappIcon {
   font-size: 1.5rem;
 }
 
+@media (max-width: 1300px) {
+  .landingContent {
+    width: 45%;
+  }
+  .homeLandingContentContainer img {
+    width: 45%;
+  }
+}
+@media (max-width: 1000px) {
+  .homeLandingContentContainer {
+    flex-direction: column-reverse;
+  }
+  .landingContent {
+    width: 90%;
+
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .landingContent h4 {
+    text-align: center;
+  }
+
+  .landingContent p {
+    text-align: center;
+  }
+
+  .homeLandingContentContainer img {
+    height: 40%;
+    object-fit: contain;
+  }
+
+  .callToActionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .callToActionContainer {
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+
+  .callToActionContainer a {
+    padding: 1rem;
+
+    width: max-content;
+    min-width: 100px;
+    text-align: center;
+  }
+
+  .homeLandingContentContainer img {
+    height: 40%;
+    width: 90%;
+    object-fit: contain;
+  }
+}

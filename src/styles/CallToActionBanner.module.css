@@ -28,6 +28,8 @@
   font-size: 2rem;
   border-bottom: 2px solid white;
   line-height: 5rem;
+  text-align: center;
+  padding: 1rem;
 }
 
 .bannerContentContainer p {
@@ -35,6 +37,7 @@
   color: white;
   font-size: 1.3rem;
   text-align: center;
+  padding: 0 1rem;
 }
 
 .bannerContentContainer .link {
@@ -52,6 +55,7 @@
   border-radius: 20px;
   background-color: white;
   transition: 0.5s;
+  margin-bottom: 1rem;
 }
 .bannerContentContainer .link:hover {
   color: white;
@@ -109,4 +113,21 @@
   z-index: 1;
   transform: rotate(180deg);
   bottom: 0;
+}
+
+@media (max-width:1110px) {
+  .bannerContentContainer {
+   width: 90%;
+   margin: 0 auto;
+   height: auto;
+    background-color: rgba(213, 27, 27, 0.29);
+    backdrop-filter: blur(10px);
+  }
+ 
+  .svgsContainerOne{
+   width: 5%;
+  }
+  .svgsContainerTwo{
+    width: 5%;
+  }
 }

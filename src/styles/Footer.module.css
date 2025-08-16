@@ -103,3 +103,21 @@ footer {
   display: flex;
   gap: 2rem;
 }
+
+
+@media (max-width: 1000px) {
+  .footerTopContainer {
+  
+    grid-template-columns: 1fr 1fr ;
+  row-gap: 6rem;
+  }
+  
+}
+@media (max-width: 600px) {
+  .footerTopContainer {
+  
+    grid-template-columns: 1fr  ;
+  row-gap: 1rem;
+  }
+  
+}

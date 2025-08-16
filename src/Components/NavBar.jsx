@@ -2,11 +2,13 @@ import React, { useEffect, useState } from "react";
 import styles from "../styles/NavBar.module.css";
 import logo from "/assets/logos/logo.svg";
 import { Link, useLocation } from "react-router-dom";
-
 import { GoDownload } from "react-icons/go";
+import { FiMenu, FiX } from "react-icons/fi"; // Hamburger & close icons
 import portfolio from "/assets/Aryavrat Marketing Brochure.pdf";
+
 function NavBar() {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -18,16 +20,33 @@ function NavBar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Close menu on route change
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location]);
+
   return (
-    <nav data-aos="fade-down" className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
+    <nav
+      data-aos="fade-down"
+      className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}
+    >
       <div className={styles.navLogoContainer}>
         <Link to={"/"}>
-          {" "}
           <img src={logo} alt="aryavrat-marketing-logo" />
         </Link>
       </div>
 
-      <div className={styles.navLinksContainer}>
+      {/* Hamburger button (mobile only) */}
+      <div className={styles.hamburger} onClick={() => setMenuOpen(!menuOpen)}>
+        {menuOpen ? <FiX size={28} /> : <FiMenu size={28} />}
+      </div>
+
+      {/* Links */}
+      <div
+        className={`${styles.navLinksContainer} ${
+          menuOpen ? styles.activeMenu : ""
+        }`}
+      >
         <a href={portfolio} target="_blank" rel="noopener noreferrer">
           Portfolio <GoDownload className={styles.portfolioDownloadbutton} />
         </a>
@@ -36,7 +55,8 @@ function NavBar() {
           className={`${styles.link} ${
             location.pathname === "/" ? styles.activeLink : ""
           }`}
-          to="/">
+          to="/"
+        >
           Home
         </Link>
 
@@ -44,7 +64,8 @@ function NavBar() {
           className={`${styles.link} ${
             location.pathname === "/sites" ? styles.activeLink : ""
           }`}
-          to="/sites">
+          to="/sites"
+        >
           Sites
         </Link>
 
@@ -52,7 +73,8 @@ function NavBar() {
           className={`${styles.link} ${
             location.pathname === "/clients" ? styles.activeLink : ""
           }`}
-          to="/clients">
+          to="/clients"
+        >
           Clients
         </Link>
 
@@ -60,13 +82,15 @@ function NavBar() {
           className={`${styles.link} ${
             location.pathname === "/gallery" ? styles.activeLink : ""
           }`}
-          to="/gallery">
+          to="/gallery"
+        >
           Gallery
         </Link>
 
         <Link
           className={`${styles.link} ${styles.contactUsButton}`}
-          to={"/contact-us"}>
+          to={"/contact-us"}
+        >
           Contact Us
         </Link>
       </div>
