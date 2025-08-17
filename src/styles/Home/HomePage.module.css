@@ -10,7 +10,7 @@
   background-color: black;
   display: flex;
   flex-direction: row;
-align-items: center;
+  align-items: center;
   justify-content: center;
   padding: 4rem;
   transform: translateY(-100px);
@@ -404,8 +404,8 @@ align-items: center;
   }
   .testimonialSlide {
     padding: 1rem;
-  
-    background-color:transparent;
+
+    background-color: transparent;
   }
   .statsContainer {
     flex-direction: column;
@@ -413,10 +413,16 @@ align-items: center;
     align-items: center;
   }
 
-  .stat{
+  .stat {
     width: 100%;
   }
- 
+
+  .viewAllBtnContainer {
+    height: 50px;
+
+    margin: 0;
+    margin-bottom: -50px;
+  }
 }
 
 @media (max-width: 580px) {
@@ -441,7 +447,6 @@ align-items: center;
     height: 50px;
   }
 
- 
   .stat {
     width: 100%;
   }
