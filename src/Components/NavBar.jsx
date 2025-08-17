@@ -11,7 +11,7 @@ function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
 
- 
+
   
   useEffect(() => {
     setMenuOpen(false);
@@ -20,7 +20,7 @@ function NavBar() {
   return (
     <nav
       data-aos="fade-down"
-      className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}
+      className={styles.navbar}
     >
       <div className={styles.navLogoContainer}>
         <Link to={"/"}>
