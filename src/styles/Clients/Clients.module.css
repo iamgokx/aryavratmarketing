@@ -18,7 +18,10 @@
 .brandsThatTrustUsContainer h2 {
   color: white;
   font-size: 3rem;
+  text-align: center;
   font-family: var(--heading-font);
+
+  width: 100%;
 }
 
 .brandsThatTrustUsContainer h2 span {
@@ -50,15 +53,13 @@
   object-fit: contain;
   object-position: center;
   transition: 0.5s;
-
 }
 .clientsContainer img:hover {
   scale: 1.1;
   transition: 0.5s;
 }
 
-
-.testimonialsContainer{
+.testimonialsContainer {
   margin-top: 5rem;
   display: flex;
   align-items: center;
@@ -71,6 +72,7 @@
   color: white;
   font-size: 3rem;
   font-family: var(--heading-font);
+  text-align: center;
 }
 
 .testimonialsContainer h2 span {
@@ -85,37 +87,92 @@
   font-size: 1.2rem;
 }
 
-.testimonials{
+.testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin: 4rem 0rem;
 }
 
-.manyMoreHeading{
+.manyMoreHeading {
   color: white;
   font-family: var(--body-font);
   font-size: 1.2rem;
 }
 
-.campaignsContainer{
+.campaignsContainer {
   margin-top: 7rem;
 }
 
+.campaignsContainer h2 {
+  color: white;
+  font-size: 3rem;
+  font-family: var(--heading-font);
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.campaignsContainer h2 span {
+  color: var(--primary-color);
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 1300px) {
+  .clientsSection {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .clientsContainer img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .brandsThatTrustUsContainer {
+    padding: 2rem;
+  }
+  .brandsThatTrustUsContainer h2 {
+    font-size: 2.5rem;
+  }
 
   .campaignsContainer h2 {
-    color: white;
-    font-size: 3rem;
-    font-family: var(--heading-font);
-    text-align: center;
-    margin-bottom: 4rem;
-  }
-  
-  .campaignsContainer h2 span {
-    color: var(--primary-color);
+    font-size: 2.5rem;
   }
 
-  .cardsContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .testimonialsContainer h2 {
+    font-size: 2.5rem;
   }
+}
+@media (max-width: 600px) {
+  .clientsContainer img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .brandsThatTrustUsContainer h2 {
+    font-size: 2rem;
+  }
+  .campaignsContainer h2 {
+    font-size: 2rem;
+  }
+  .testimonialsContainer h2 {
+    font-size: 2rem;
+  }
+
+  .brandsThatTrustUsContainer p {
+    width: 100%;
+  }
+
+  .cardsContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+}

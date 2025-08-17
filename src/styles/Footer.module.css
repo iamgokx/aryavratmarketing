@@ -40,9 +40,8 @@ footer {
   font-size: 2rem;
   transition: 0.5s;
 }
-.fbIcon{
+.fbIcon {
   font-size: 3rem;
-
 }
 
 .icon:hover {
@@ -62,14 +61,13 @@ footer {
   margin-bottom: 2rem;
 }
 
-.link ,p{
+.link,
+p {
   font-family: var(--body-font);
   color: white;
   text-decoration: none;
   transition: 0.5s;
 }
-
-
 
 .link:hover {
   transition: 0.5s;
@@ -104,20 +102,19 @@ footer {
   gap: 2rem;
 }
 
-
 @media (max-width: 1000px) {
   .footerTopContainer {
-  
-    grid-template-columns: 1fr 1fr ;
-  row-gap: 6rem;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6rem;
   }
-  
 }
 @media (max-width: 600px) {
   .footerTopContainer {
-  
-    grid-template-columns: 1fr  ;
-  row-gap: 1rem;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
   }
-  
+
+  .linksContainer{
+    margin-top: 2rem;
+  }
 }

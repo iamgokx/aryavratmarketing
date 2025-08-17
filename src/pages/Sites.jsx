@@ -110,10 +110,12 @@ function Sites() {
           <div className={styles.popUpOverlay}>
             <div className={styles.popUpContainer}>
               <div className={styles.popUpHeader}>
+                <div className={styles.iconContainerCloseBtn}>
                 <RiCloseCircleLine
                   className={styles.closePopUpIcon}
                   onClick={handleClosePopup}
                 />
+                </div>
                 <h2>Premium Advertising Sites Across Goa</h2>
               </div>
 
@@ -162,26 +164,37 @@ function Sites() {
 
                           <div className={styles.selectedSiteContentContainer}>
                             <p>
+                              <div className={styles.siteIconContianer}>
+
                               <SlSizeFullscreen className={styles.siteIcon} />
+                              </div>
                               {selectedSite.size}
                             </p>
                             {selectedSite.quantity > 1 && (
                               <p>
+                                <div className={styles.siteIconContianer}>
                                 <LuUtilityPole className={styles.siteIcon} />
+                                </div>
                                 {selectedSite.quantity} Poles
                               </p>
                             )}
                             <p>
-                              <HiLocationMarker className={styles.siteIcon} />{" "}
+                            <div className={styles.siteIconContianer}>
+                              <HiLocationMarker className={styles.siteIcon} />
+                            </div>
                               {selectedSite.location}
                             </p>
                             <p>
+                            <div className={styles.siteIconContianer}>
                               <IoEye className={styles.siteIcon} />
+                            </div>
                               {selectedSite.sides || ""} {selectedSite.lit}
                             </p>
                             <p>
                               {selectedSite.availability === "Available" ? (
+                                <div className={styles.siteIconContianer}>
                                 <TiTick className={styles.siteIcon} />
+                                </div>
                               ) : (
                                 <GrFormClose className={styles.siteIcon} />
                               )}

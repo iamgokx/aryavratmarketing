@@ -10,7 +10,7 @@
   background-color: black;
   display: flex;
   flex-direction: row;
-
+align-items: center;
   justify-content: center;
   padding: 4rem;
   transform: translateY(-100px);
@@ -25,12 +25,12 @@
 }
 
 .slider div {
-  height: 300px;
+  height: 100%;
   width: 100%;
 }
 
 .slider div img {
-  height: 300px;
+  height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -402,6 +402,11 @@
     height: 40px;
     object-fit: contain;
   }
+  .testimonialSlide {
+    padding: 1rem;
+  
+    background-color:transparent;
+  }
 }
 
 @media (max-width: 580px) {
@@ -437,5 +442,15 @@
 @media (max-width: 480px) {
   .item {
     height: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .slider {
+    width: 250px;
+    height: 150px;
+  }
+  .slider div {
+    height: 100%;
+    width: 250px;
   }
 }

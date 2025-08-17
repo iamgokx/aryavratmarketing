@@ -67,3 +67,9 @@
 .TestimonialUser header{
   font-weight: 600;
 }
+
+@media (max-width: 700px) {
+  .TestimonialCard {
+    height: 200px;
+  }
+}
