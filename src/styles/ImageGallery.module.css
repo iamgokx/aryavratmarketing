@@ -49,11 +49,7 @@
 }
 
 @media screen and (max-width: 479px) {
-  .gallery { 
-      -webkit-column-count: 1;
-      -moz-column-count: 1;
-      column-count: 1;
-  }
+
   .gallery div { 
       margin: 0; 
       width: 200px;

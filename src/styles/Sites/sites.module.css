@@ -357,4 +357,8 @@
   .btnContainer{
     margin-top: 2rem;
   }
+
+  .siteList {
+    grid-template-columns: 1fr ;
+  }
 }
