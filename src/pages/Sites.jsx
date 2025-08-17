@@ -178,10 +178,10 @@ function Sites() {
 
                           <div className={styles.selectedSiteContentContainer}>
                             <p>
-                              <div className={styles.siteIconContianer}>
+                              <span className={styles.siteIconContianer}>
 
                               <SlSizeFullscreen className={styles.siteIcon} />
-                              </div>
+                              </span>
                               {selectedSite.size}
                             </p>
                             {selectedSite.quantity > 1 && (
@@ -193,22 +193,22 @@ function Sites() {
                               </p>
                             )}
                             <p>
-                            <div className={styles.siteIconContianer}>
+                            <span className={styles.siteIconContianer}>
                               <HiLocationMarker className={styles.siteIcon} />
-                            </div>
+                            </span>
                               {selectedSite.location}
                             </p>
                             <p>
-                            <div className={styles.siteIconContianer}>
+                            <span className={styles.siteIconContianer}>
                               <IoEye className={styles.siteIcon} />
-                            </div>
+                            </span>
                               {selectedSite.sides || ""} {selectedSite.lit}
                             </p>
                             <p>
                               {selectedSite.availability === "Available" ? (
-                                <div className={styles.siteIconContianer}>
+                                <span className={styles.siteIconContianer}>
                                 <TiTick className={styles.siteIcon} />
-                                </div>
+                                </span>
                               ) : (
                                 <GrFormClose className={styles.siteIcon} />
                               )}

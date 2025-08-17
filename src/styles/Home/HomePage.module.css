@@ -340,6 +340,10 @@
 @media (max-width: 1030px) {
   .homeAboutUsContainer {
     flex-direction: column;
+    padding: 0px;
+  }
+  .homeAboutUsContainer .slider{
+padding: 1rem;
   }
   .homeAboutUsContentContainer {
     align-items: center;
@@ -351,6 +355,7 @@
 
   .homeAboutUsContentContainer p {
     text-align: center;
+   
   }
 
   .statsContainer .stat:nth-child(2) img {
