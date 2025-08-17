@@ -40,7 +40,7 @@ function NavBar() {
         }`}
       >
         <a href={portfolio} target="_blank" rel="noopener noreferrer">
-          Portfolio <GoDownload className={styles.portfolioDownloadbutton} />
+        Brochure <GoDownload className={styles.portfolioDownloadbutton} />
         </a>
 
         <Link

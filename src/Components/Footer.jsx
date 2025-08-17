@@ -55,9 +55,23 @@ function Footer() {
             Sites
           </Link>
 
-          <a href={portfolio} target="_blank" rel="noopener noreferrer">
-            Portfolio <GoDownload className={styles.link} />
-          </a>
+          <a
+    href={portfolio}
+    target="_blank"
+    rel="noopener noreferrer"
+    className={`${styles.link} ${styles.desktopOnly}`}
+  >
+    Preview Brochure 
+  </a>
+
+  {/* Mobile - Download */}
+  <a
+    href={portfolio}
+    download="ExoticGoa-Brochure.pdf"
+    className={`${styles.link} ${styles.mobileOnly}`}
+  >
+    Download Brochure <GoDownload className={styles.link} />
+  </a>
 
           <Link to={"/clients"} className={styles.link}>
             Clients
