@@ -423,6 +423,10 @@
     margin: 0;
     margin-bottom: -50px;
   }
+  .aboutUsdesc {
+    width: 100%;
+  
+  }
 }
 
 @media (max-width: 580px) {

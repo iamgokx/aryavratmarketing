@@ -35,10 +35,31 @@
   margin: 2rem 0;
   font-size: 2rem;
 }
+
+.locationsubHeading {
+  font-family: var(--subheading-font);
+  color: white;
+  font-size: 1.2rem;
+  width: max-content;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.locationsubHeading::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  left: 0;
+}
 .siteList {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
+  margin-top: 2rem;
 }
 
 .siteImage {
@@ -354,6 +375,9 @@
 
   .siteList {
     grid-template-columns: 1fr;
+  }
+  .locationHeading {
+   text-align: center;
   }
 }
 

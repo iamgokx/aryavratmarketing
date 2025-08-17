@@ -103,7 +103,9 @@ function Sites() {
             South Goa
           </button>
         </div>
+        <p className={styles.locationsubHeading}>Click any location to view sties</p>
         <h3 className={styles.locationHeading}>{activeTab} Goa Locations</h3>
+       
         <div className={styles.siteList}>
           {groupedSites.map((site, index) => (
             <SiteCard
