@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/Sites/sites.module.css";
 import PageHeading from "../Components/PageHeading";
 import northSites from "../../siteData/SitesNorth.json";
@@ -33,6 +33,18 @@ function Sites() {
     groups[site.locationid].push(site);
     return groups;
   }, {});
+
+  useEffect(() => {
+    if (selectedLocationId) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+  
+    return () => document.body.classList.remove("no-scroll");
+  }, [selectedLocationId]);
+  
+ 
 
   for (const locationId in locationGroups) {
     const group = locationGroups[locationId];
