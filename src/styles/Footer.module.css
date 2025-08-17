@@ -114,7 +114,17 @@ p {
     row-gap: 1rem;
   }
 
-  .linksContainer{
+  .linksContainer {
     margin-top: 2rem;
+  }
+
+  .footerBottomContainer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footerBottomContainer div {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
