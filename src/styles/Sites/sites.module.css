@@ -74,7 +74,6 @@
   animation: slideUp 0.3s ease;
   overflow: hidden;
   overflow-y: scroll;
-
 }
 
 .popUpContainer::-webkit-scrollbar {
@@ -311,13 +310,11 @@
     flex-direction: column;
     gap: 2rem;
   }
-  .sitesListContainer{
-   
+  .sitesListContainer {
     width: 100%;
   }
 
-  .sitesDetailContainer{
-   
+  .sitesDetailContainer {
     width: 100%;
   }
 
@@ -330,21 +327,18 @@
   }
 }
 
-
 @media (max-width: 700px) {
-
-
   .slider {
     height: 250px;
   }
 
-  .popUpHeader{
+  .popUpHeader {
     flex-direction: column;
     align-items: flex-end;
     gap: 2rem;
   }
 
-  .popUpContainer h2{
+  .popUpContainer h2 {
     width: 100%;
     text-align: center;
     margin-bottom: 2rem;
@@ -354,11 +348,17 @@
     padding: 2rem;
   }
 
-  .btnContainer{
+  .btnContainer {
     margin-top: 2rem;
   }
 
   .siteList {
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .slider {
+    height: 150px;
   }
 }
