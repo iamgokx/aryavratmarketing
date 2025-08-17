@@ -64,10 +64,10 @@ function Footer() {
     Preview Brochure 
   </a>
 
-  {/* Mobile - Download */}
+ 
   <a
     href={portfolio}
-    download="ExoticGoa-Brochure.pdf"
+    download="Aryavrat-Marketing-Brochure.pdf"
     className={`${styles.link} ${styles.mobileOnly}`}
   >
     Download Brochure <GoDownload className={styles.link} />
