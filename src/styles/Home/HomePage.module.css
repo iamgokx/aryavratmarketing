@@ -407,6 +407,16 @@ align-items: center;
   
     background-color:transparent;
   }
+  .statsContainer {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .stat{
+    width: 100%;
+  }
+ 
 }
 
 @media (max-width: 580px) {
@@ -431,10 +441,7 @@ align-items: center;
     height: 50px;
   }
 
-  .statsContainer {
-    flex-direction: column;
-    gap: 2rem;
-  }
+ 
   .stat {
     width: 100%;
   }
